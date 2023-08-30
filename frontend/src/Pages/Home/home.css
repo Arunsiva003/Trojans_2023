@@ -1,0 +1,106 @@
+.homePage{
+    color:white;
+}
+
+
+.intro{
+    background-color: black;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height:100vh;
+    gap:20px;
+}
+
+.timer{
+    margin-top: 10%;
+}
+
+.trojanshead{
+    color: #dbdbdb;
+    font-family: "Assassin$-Regular", Helvetica;
+    font-size: 250px;
+    font-weight: 400;
+    letter-spacing: 25px;
+    line-height: normal;
+    position: absolute;
+}
+
+.line{
+    border-top:2px solid white;
+    margin-inline:20px;
+    width:85%;
+}
+
+.heroTrojans{
+    color: #dbdbdb;
+    font-family: "Assassin$-Regular", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 6.4px;
+    line-height: normal;
+    width: 498px;
+}
+
+.heroDesc{
+    color: #ffffff;
+    font-family: "Assassin$-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 4.8px;
+    line-height: normal;
+    white-space: nowrap;
+    width: 897px;
+}
+
+.heroDate{
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 4.8px;
+    line-height: normal;
+    white-space: nowrap;
+    width: 586px;
+}
+
+.registerBox{
+    height: 364px;
+    width: 505px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.registerButton {
+    color: #ffffff;
+    font-family: "Iceland", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 40px;
+    border: 1px solid white;
+    background-origin: border-box;
+    background-clip: content-box, padding-box, padding-box, padding-box;
+    box-shadow: 4px 4px 4px 2px rgba(96, 3, 96, 0.5); /* Use rgba() for transparency */
+}
+.registerButton:hover{
+    background:rgba(96, 3, 96, 0.1);
+    color:white;
+    cursor:pointer;
+    /* box-shadow: none; */
+
+
+}

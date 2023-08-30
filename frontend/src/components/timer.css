@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .countdown-item {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .countdown-number {
+    font-size: 120px;
+    color: #fff;
+  }
+ 
+  
+  .countdown-label {
+    font-size: 40px;
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
