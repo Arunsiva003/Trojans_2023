@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     background-color: black;
-    height:100vh;
+    height:140vh;
     gap:20px;
 }
 
@@ -101,6 +101,58 @@
     color:white;
     cursor:pointer;
     /* box-shadow: none; */
+}
 
+.homeAbout{
+    height:100vh;
+}
 
+.aboutHead{
+    
+    display:flex;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+.aboutHead2{
+    font-size: 40px;
+    font-family: "Iceland", Helvetica;
+    letter-spacing: 4px;
+    border:1px solid white;
+    border-radius: 40px;
+    padding:20px;
+    background: linear-gradient(to left, #790cde,#cf16c0, #901dca, #8a1c77 ); 
+}
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.firstAbout{
+    display: flex;
+}
+.leftAbout{
+    flex:1;
+    padding:20px;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Iceland", Helvetica;
+}
+.rightAbout{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    flex:1;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Iceland", Helvetica;
+}
+
+.logo2{
+    width: 80%;
+    height: 88%;
 }

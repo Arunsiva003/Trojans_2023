@@ -1,0 +1,36 @@
+
+.bar {
+    margin-top:10%;
+    width:100vw;
+    padding: 15px 0;
+    background: linear-gradient(to right, #790cde,#cf16c0, #901dca, #8a1c77 );    font-size: 18px;
+    animation: glow 4s ease-in-out infinite;
+    overflow-x: hidden;
+}
+
+@keyframes glow {
+    0%, 100% {
+      /* transform: scale(1); */
+      opacity: 0.6;
+    }
+    50% {
+      /* transform: scale(1.1); */
+      opacity: 2;
+    }
+  }
+  
+  .bar_content {
+    display: block; /* Important to give the content a width */
+    font-size: 55px;
+    width: 100%;
+    transform: translateX(100%); /* Animation start out of the screen */
+    font-family: "Poppins", Helvetica;
+    letter-spacing: 4px;
+    /* Add the animation */
+    animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+  }
+  
+  /* Create the animation */
+  @keyframes move {
+    to { transform: translateX(-100%); }
+  }
