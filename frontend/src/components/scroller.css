@@ -22,7 +22,7 @@
   
   .bar_content {
     display: block; /* Important to give the content a width */
-    font-size: 50px;
+    font-size: 48px;
     width: 100%;
     transform: translateX(100%); /* Animation start out of the screen */
     font-family: "Poppins", Helvetica;
