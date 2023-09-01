@@ -436,7 +436,7 @@ export default function Home() {
 
 
 
-        {/* <ContactUs/> */}
+        <ContactUs/>
         {/* <Footer/> */}
     </div>
   )
