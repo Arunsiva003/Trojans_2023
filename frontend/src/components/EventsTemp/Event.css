@@ -151,10 +151,11 @@ height: fit-content;
 
   
   .heading_event{
-    color: white;
+    color:var(--title-color);
     margin-inline:auto;
     height: 10%;
-    font-size: 30px;
+    font-size: var(--trojan-title-font);
+    font-family: var(--trojan-title);
   }
   .image_event{
     height: 100%;
