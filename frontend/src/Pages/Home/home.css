@@ -1,6 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+:root {
+    --trojan-title : 'Assassin$';
+    --title-font: 'Poppins',sans-serif;
+    --title-color: #DCDCDC;
+    --trojan-title-font-weight : 400;
+    --trojan-title-font:96px;
+    --line-color:#fff;
+    --timer-color:#9133F5;
+    --register-filter:drop-shadow(7px 7px 5px rgba(148, 87, 235, 0.61));
+
+}
+
 .homePage{
     color:white;
-    /* overflow: hidden; */
 }
 
 
@@ -28,7 +41,7 @@
 
 .trojanshead{
     color: #dbdbdb;
-    font-family: "Assassin$-Regular", Helvetica;
+    font-family: var(--trojan-title);
     font-size: 250px;
     font-weight: 400;
     letter-spacing: 25px;
@@ -39,14 +52,14 @@ p{
     text-align:justify;
 }
 .line{
-    border-top:2px solid white;
+    border-top:2px solid var(--line-color);
     margin-inline:20px;
     width:85%;
 }
 
 .heroTrojans{
-    color: #dbdbdb;
-    font-family: "Assassin$-Regular", Helvetica;
+    color:var(--title-color);
+    font-family: var(--trojan-title);
     font-size: 64px;
     font-weight: 400;
     letter-spacing: 6.4px;
@@ -55,10 +68,10 @@ p{
 }
 
 .heroDesc{
-    color: #ffffff;
-    font-family: "Assassin$-Regular", Helvetica;
+    color:var(--title-color);
+    font-family: var(--trojan-title);
     font-size: 48px;
-    font-weight: 400;
+    font-weight: var(--trojan-title-font-weight);
     letter-spacing: 4.8px;
     line-height: normal;
     white-space: nowrap;
@@ -66,8 +79,8 @@ p{
 }
 
 .heroDate{
-    color: #ffffff;
-    font-family: "Poppins", Helvetica;
+    color:var(--line-color);
+    font-family: var(--trojan-title);
     font-size: 48px;
     font-weight: 400;
     letter-spacing: 4.8px;
@@ -97,7 +110,7 @@ p{
     border: 1px solid white;
     background-origin: border-box;
     background-clip: content-box, padding-box, padding-box, padding-box;
-    box-shadow: 4px 4px 4px 2px rgba(96, 3, 96, 0.5); /* Use rgba() for transparency */
+    filter: var(--register-filter);
 }
 .registerButton:hover{
     background:rgba(96, 3, 96, 0.1);

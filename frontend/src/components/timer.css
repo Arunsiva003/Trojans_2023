@@ -1,3 +1,14 @@
+
+:root {
+  --trojan-title: 'Assassin$';
+  --title-font: 'Poppins', sans-serif;
+  --title-color: #DCDCDC;
+  --trojan-title-font-weight: 400;
+  --trojan-title-font: 96px;
+  --line-color: #fff;
+  --timer-color: #9133F5;
+
+}
 body {
     display: flex;
     justify-content: center;
@@ -20,13 +31,17 @@ body {
   
   .countdown-number {
     font-size: 120px;
-    color: #fff;
+    font-family: var(--title-font);
+    color:var(--timer-color);
   }
  
   
   .countdown-label {
     font-size: 40px;
-    color: #ccc;
+    color: var(--line-color);
+    font-family: var(--trojan-title);
+    
     text-transform: uppercase;
     letter-spacing: 1px;
+
   }
