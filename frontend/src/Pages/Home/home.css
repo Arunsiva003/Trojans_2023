@@ -1,25 +1,45 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@200;300;400;500&display=swap');
 
 
 :root {
-    --trojan-title : 'Assassin$';
+    --trojan-title: 'Assassin$';
     --title-font: 'Poppins';
     --title-color: #DCDCDC;
-    --trojan-title-font-weight : 400;
-    --trojan-title-font:96px;
-    --line-color:#fff;
-    --timer-color:#9133F5;
-    --register-filter:drop-shadow(7px 7px 5px rgba(148, 87, 235, 0.61));
-    --event-box:#101010
-    --button-text: 'Iceland'
-  
+    --trojan-title-font-weight: 400;
+    --trojan-title-font: 96px;
+    --line-color: #fff;
+    --timer-color: #9133F5;
+    --register-filter: drop-shadow(7px 7px 5px rgba(148, 87, 235, 0.61));
+    --event-box: #101010 --button-text: 'Iceland'
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .homePage{
+    background-color: #000;
     color:white;
+    /* overflow: hidden; */
 }
-
 
 .intro{
     background-color: black;
@@ -32,6 +52,7 @@
 
 .hero{
     display:flex;
+    margin-top:10%;
     flex-direction: column;
     align-items: center;
     background-color: black;
@@ -153,6 +174,9 @@ p{
 .firstAbout{
     display: flex;
 }
+.firstAbout2{
+    display: flex;
+}
 .leftAbout{
     flex:1;
     padding:20px;
@@ -235,6 +259,126 @@ p{
 }
 
 
-@media screen and (max-width:720px){
+@media screen and (max-width:1240px){
+
+    .homePage{
+        color:white;
+
+    }
+
+    .homeLogo{
+        width: 100%;
+    }
+
+
+.trojanshead{
+    color: #dbdbdb;
+    font-family: "Assassin$-Regular", Helvetica;
+    font-size: 400%;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: normal;
+    position: absolute;
+}
+
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroTrojans{
+    color: #dbdbdb;
+    font-family: "Assassin$-Regular", Helvetica;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 3.2px;
+    line-height: normal;
+    width: 248px;
+}
+
+.heroDesc{
+    color: #ffffff;
+    font-family: "Assassin$-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+
+.heroDate{
+    color: #ffffff;
+    font-family: "Poppins", Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    white-space: nowrap;
+    width: 286px;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    width:100%;;
+}
+.firstAbout{
+    display: flex;
+    flex-direction: column;
+}
+.firstAbout2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.intro{
+    /* display:none; */
+}
+
+
+
+
+
+.hero{
+    /* display: none; */
+}
+.homeAbout{
+    
+}
+.aboutLogo{
+    width: 50%;
+}
+.logo2{
+    width:50%;
+}
+.leftAbout{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventContainer{
+    flex-direction: column;
+    gap:20px;
+    /*-----------------*/
+}
+.eventBox{
+    width: 80%;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.eventHead2{
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
 
 }

@@ -31,6 +31,7 @@ import  Beyond from "../../images/Tech/BeyondTheVisual.jpg"
 import  CodeBeat from "../../images/Tech/CodeBeats1.jpg"
 import  Code from "../../images/Tech/CodersChemistry.jpg"
 import  Quiz from "../../images/Tech/QuizTopher.jpg"
+import Navbar from '../../components/Navbar/Navbar.jsx';
 //workshop images
 
 export default function Home() {
@@ -430,11 +431,14 @@ export default function Home() {
 
   return (
     <div className='homePage'>
-        <div className='intro'>
+      <Navbar/>
+      <div className='intro'>
             <p className='trojanshead'>TROJANS</p> 
             <img src={Logo} alt="logo" className='homeLogo'/>
             <div className='line'></div>
         </div>
+
+
         <div className='hero'>
           <div className="heroTrojans">TROJANS’23</div>
           <div className="heroDesc">National Level Technical Symposium</div>
@@ -442,23 +446,26 @@ export default function Home() {
               <Timer/>
           </div>
           <div className="heroDate">September 20, 2023</div>
-          <div className="registerBox">
+          {/* <div className="registerBox">
               <div className="registerButton">REGISTER</div>
-          </div>
+          </div> */}
+        
           <Scroller/>
         </div>
+
+
         <div className='homeAbout'>
           <div className='aboutHead'><div className='aboutHead2'>About Us</div></div>
            <div className='aboutContainer'>
               <div className='firstAbout'>
                   <div className='leftAbout'>
-                    <img src={citLogo} alt="cit"/>
+                    <img src={citLogo} alt="cit" className='aboutLogo'/>
                   </div>
                   <div className='rightAbout'>
                     <p>{cit}</p>
                   </div>
               </div>
-              <div className='firstAbout'>
+              <div className='firstAbout2'>
                   <div className='leftAbout'>  
                     <p>{cit}</p>
                   </div>
@@ -469,6 +476,9 @@ export default function Home() {
            </div>
           <div className='line'></div>
         </div>
+
+
+
         <div className='eventsHome'>
           <div className='eventHead'>
             <div className='eventHead2'>Events</div>

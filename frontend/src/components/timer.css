@@ -1,47 +1,49 @@
-
-:root {
-  --trojan-title: 'Assassin$';
-  --title-font: 'Poppins', sans-serif;
-  --title-color: #DCDCDC;
-  --trojan-title-font-weight: 400;
-  --trojan-title-font: 96px;
-  --line-color: #fff;
-  --timer-color: #9133F5;
-
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #000;
-  }
-  
-  .countdown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .countdown-item {
-    text-align: center;
-    margin: 0 20px;
-  }
-  
+
+.countdown-item {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.countdown-number {
+  font-size: 120px;
+  font-family: var(--title-font);
+  color: var(--timer-color);
+}
+
+
+.countdown-label {
+  font-size: 40px;
+  color: var(--line-color);
+  font-family: var(--trojan-title);
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  <<<<<<< HEAD=======
+}
+
+@media screen and (max-width:1240px) {
+
   .countdown-number {
-    font-size: 120px;
-    font-family: var(--title-font);
-    color:var(--timer-color);
+    font-size: 20px;
+    color: #fff;
   }
- 
-  
+
   .countdown-label {
-    font-size: 40px;
-    color: var(--line-color);
-    font-family: var(--trojan-title);
-    
+    font-size: 10px;
+    color: #ccc;
     text-transform: uppercase;
     letter-spacing: 1px;
-
   }
+
+  .countdown-item {
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  >>>>>>>7898c4f2df061cc2e6eda8fbdde9d984f48c3365
+}
