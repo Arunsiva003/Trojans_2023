@@ -1,11 +1,12 @@
 
 .bar {
     margin-top:10%;
-    width:100vw;
+    width:100%;
+    height: fit-content;
     padding: 15px 0;
-    background: linear-gradient(to right, #790cde,#cf16c0, #901dca, #8a1c77 );    font-size: 18px;
-    animation: glow 4s ease-in-out infinite;
-    overflow-x: hidden;
+    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0,131)100.2%);    animation: glow 4s ease-in-out infinite;
+    overflow: hidden;
+
 }
 
 @keyframes glow {

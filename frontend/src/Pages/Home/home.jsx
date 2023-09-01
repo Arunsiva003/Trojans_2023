@@ -2,6 +2,8 @@ import React from 'react'
 import './home.css'
 import Timer from '../../components/timer';
 import Scroller from '../../components/scroller';
+import ContactUs from "../../components/ContactUs/ContactUs";
+import Footer from '../../components/Footer/Footer';
 
 import Logo from '../../images/Trojans/trojansLogo.png';
 import Logo2 from '../../images/Trojans/OnlyLogo_White.webp';
@@ -64,6 +66,11 @@ export default function Home() {
         </div>
 
 
+
+
+
+        <ContactUs/>
+        <Footer/>
     </div>
   )
 }
