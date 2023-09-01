@@ -1,6 +1,7 @@
 import Home from "./Pages/Home/home";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import EventTemp from "./components/EventsTemp/EventTemp";
+import Sponsors from "./components/Sponsors/Sponsors";
 function App() {
   return (
         <Router>
@@ -8,7 +9,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home/>} />
-            {/* <Route path="/sponsors" element={<Sponsors />} /> */}
+            <Route path="/sponsors" element={<Sponsors />} />
             {/* <Route path="/online" element={<Online />} />
             <Route path="/register" element={<Register />} /> */}
             {/* <Route path="/events" element={<EventSelect />} /> */}

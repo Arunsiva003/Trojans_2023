@@ -2,7 +2,7 @@ import React from 'react'
 import './home.css'
 import Timer from '../../components/timer';
 import Scroller from '../../components/scroller';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import Logo from '../../images/Trojans/trojansLogo.png';
 import Logo2 from '../../images/Trojans/OnlyLogo_White.webp';
 import citLogo from "../../images/Trojans/cit_white_logo.webp";
@@ -19,8 +19,8 @@ import  Code from "../../images/Tech/CodersChemistry.jpg"
 import  Quiz from "../../images/Tech/QuizTopher.jpg"
 //workshop images
 
-export default function home() {
-
+export default function Home() {
+   const navigate = useNavigate();
   const cit ="Chennai Institute of Technology (CIT Chennai) is an Industry Connected Institute, affiliated to Anna University and is a co-educational engineering college located at Kundrathur, Chennai, Tamil Nadu, India. It was established in 2010 and was established with an objective of providing quality technical education with adequate industrial exposure than any other college in Chennai."
   const eventType = ["Technical", "FunTech","Online","Workshop"]
   const Nontechdatas = [
