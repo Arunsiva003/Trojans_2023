@@ -31,6 +31,7 @@ import  Beyond from "../../images/Tech/BeyondTheVisual.jpg"
 import  CodeBeat from "../../images/Tech/CodeBeats1.jpg"
 import  Code from "../../images/Tech/CodersChemistry.jpg"
 import  Quiz from "../../images/Tech/QuizTopher.jpg"
+import Navbar from '../../components/Navbar/Navbar.jsx';
 //workshop images
 
 export default function Home() {
@@ -430,7 +431,8 @@ export default function Home() {
 
   return (
     <div className='homePage'>
-        <div className='intro'>
+      <Navbar/>
+      <div className='intro'>
             <p className='trojanshead'>TROJANS</p> 
             <img src={Logo} alt="logo" className='homeLogo'/>
             <div className='line'></div>
