@@ -24,8 +24,9 @@ function Navbar() {
       <div className="nav_2">
         <h2 className="links">Home</h2>
         <h2 className="links">Events</h2>
-        <h2 className="links">About</h2>
+        <h2 className="links">Workshop</h2>
         <h2 className="links">Sponsors</h2>
+        <h2 className="links">Register</h2>
       </div>
     </div>
     <div className="mobile_nav">

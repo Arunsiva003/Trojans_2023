@@ -19,7 +19,7 @@ timing:event.timing,
       <h1 className='heading_event'>{eventName}</h1>
     <div className='event_cont'>
       {eventData.map((event, index) => (
-        <article className="article-wrapper" key={index}>
+        <article className="article-wrapper" key={index} onClick={()=>senddata(event)}>
           <div className="rounded-lg container-project">
             {/* You can render the image (imageSrc) here */}
             <img src={event.imageSrc} alt={event.eventname} className='image_event'/>
