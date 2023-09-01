@@ -7,6 +7,8 @@
     border: 4px solid transparent;
     cursor: pointer;
     background-color: white;
+    height: fit-content;
+    margin: 30px;
   }
   
   .article-wrapper:hover {
@@ -107,3 +109,33 @@
     background: gray;
   }
   
+
+  .event_cont{
+    color: white;
+    background-color:red;
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  }
+  .heading_event{
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+  }
+  @media screen and (max-width:784px){
+    .event_cont{
+        color: white;
+        background-color:red;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+      }
+  }
