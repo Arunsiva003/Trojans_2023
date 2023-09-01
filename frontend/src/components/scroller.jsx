@@ -4,7 +4,7 @@ export default function Scroller() {
   return (<>
     <div className="bar">
     <span className="bar_content">
-    Technical events&#10070;Funtech events&#10070;Gaming events
+    Technical events&nbsp;&#10070;&nbsp;Funtech events&nbsp;&#10070;&nbsp;Gaming events
     </span>
   </div>
     <div className='line'>
