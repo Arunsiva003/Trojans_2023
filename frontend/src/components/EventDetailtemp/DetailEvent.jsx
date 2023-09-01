@@ -15,12 +15,15 @@ function DetailEvent() {
       }
   return (
     <div className='main_detail'>
-        <h1>{name}</h1>
+       <div className='first'>
+        <div className='first_1'><h1 onClick={gotoevent} className='goback'>go back</h1></div>
+        <div className='first_2'><h1 id="detail_heading">{name}</h1></div>
+       </div>
         <div class="card">
             <div class="card__content">
             <div id='detail_inside'>
           {/* <h2 className='detail_head'>Detail Event</h2> */}
-          <h1 onClick={gotoevent}>go back</h1>
+          
           <h2 className='detail_dura'>Duration: <span style={{color:"white", textShadow:"none"}}>{state.duration}</span> </h2>
           <h2 className='detail_time'>Timing:<span style={{color:"white", textShadow:"none"}}> {state.timing}</span></h2>
           <div>

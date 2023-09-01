@@ -18,11 +18,19 @@
 
 
 }
-.sponsors_up{
+.sponsor_up{
     height: 10%;
+    width: 100vw;
+    /* background-color: red; */
 }
 .sponsors_down{
     height: 90%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* background-color: #fff; */
 }
 
 .sponsors_title {
@@ -32,7 +40,7 @@
     font-weight: 400;
     letter-spacing: 6.2px;
     line-height: normal;
-    width: 498px;
+    /* background-color:green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,25 +48,21 @@
 
 
 
-@media (max-width: 767px) {
-    .sponsors_body {
-        display: block;
-    }
-}
+
 
 .sponsor_card {
     background: white;
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     cursor: pointer;
-    height: 250px;
+    height: 40%;
     margin: 20px;
     padding: 0 20px;
     position: relative;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.025);
     text-align: center;
     transition: height 1000ms;
-    width: 260px;
+    width: 30%;
 
 }
 
@@ -131,14 +135,36 @@
 .sponsor_body-text {
     padding: 0 20px;
 }
-@media (max-width: 767px) {
-
-    .sponsor_card {
-        left: calc(50% - 20px);
-        transform: translateX(-50%);
+@media (max-width: 700px) {
+    .sponsors_body {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        justify-content: center;
+        align-items: center;
     }
-    .sponsors_title{
+
+    .sponsors_title {
         font-size: 50px;
     }
 
+    .sponsors_down {
+        height: 90%;
+        width: 100%;
+        /* Remove the display and justify-content properties */
+        /* display: flex;
+    justify-content: center; */
+        align-items: center;
+        /* gap: 70px; */
+        flex-direction: column;
+    }
+
+    /* Center the sponsor_card on mobile */
+    .sponsor_card {
+        /* backgroundcolor: green; */
+        width: fit-content;
+        /* Adjust the positioning */
+        /* left: calc(50% - 20px);
+    transform: translateX(-50%); */
+    }
 }
