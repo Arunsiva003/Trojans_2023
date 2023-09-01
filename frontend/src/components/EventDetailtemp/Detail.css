@@ -32,7 +32,22 @@
   min-height: 100vh;
 
   color: white;
+  background: linear-gradient(315deg,#3d055f,#2c063a,#2f0340,#1c0225,#0f0115,#131213);
+  background-size: 360% 360%;
+  animation: gradient-animation 18s ease infinite;
 }
+ @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
 
 #detail_inside {
   margin-inline: 30px;
@@ -47,27 +62,23 @@
 }
 
 .first {
-  align-self: flex-start;
-  width: 100%;
-
-  background-color: aquamarine;
   display: flex;
-  height: 100px;
-  /* justify-content: space-around; */
-
-
+  flex-direction: column; /* Stack the children vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  width: 90%;
 }
 
 .first_1 {
-  background-color: yellow;
+  align-self: flex-start;
+
+  margin-bottom: 20px; /* Add some spacing between first_1 and first_2 */
 }
 
 .first_2 {
-  margin-inline: center;
-  justify-self: center;
-  background-color: red;
-
+  text-align: center; /* Center the text content horizontally */
 }
+
 
 .goback {
   /* align-self: flex-start; */
