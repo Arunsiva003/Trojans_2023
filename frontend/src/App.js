@@ -12,7 +12,7 @@ function App() {
             {/* <Route path="/online" element={<Online />} />
             <Route path="/register" element={<Register />} /> */}
             {/* <Route path="/events" element={<EventSelect />} /> */}
-            <Route path="/events" element={<EventTemp />} />
+            <Route path="/events/:eventName" element={<EventTemp />} />
             {/* <Route path="/nontech" element={<Nontech />} /> */}
             {/* <Route path="/contact" element={<ContactUs />} />
             <Route path="/workshop" element={<Workshop />} />
