@@ -1,51 +1,47 @@
-/* body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #000;
-  } */
-  
-  .countdown {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .countdown-item {
-    text-align: center;
-    margin: 0 20px;
-  }
-  
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown-item {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.countdown-number {
+  font-size: 120px;
+  font-family: var(--title-font);
+  color: var(--timer-color);
+}
+
+
+.countdown-label {
+  font-size: 40px;
+  color: var(--line-color);
+  font-family: var(--trojan-title);
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width:1240px) {
+
   .countdown-number {
-    font-size: 120px;
+    font-size: 20px;
     color: #fff;
   }
- 
-  
+
   .countdown-label {
-    font-size: 40px;
+    font-size: 10px;
     color: #ccc;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
 
-  @media screen and (max-width:1240px){
-
-    .countdown-number {
-      font-size: 20px;
-      color: #fff;
-    }
-
-    .countdown-label {
-      font-size: 10px;
-      color: #ccc;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-    .countdown-item {
-      text-align: center;
-      margin: 0 10px;
-    }
+  .countdown-item {
+    text-align: center;
+    margin: 0 10px;
   }
+
+}

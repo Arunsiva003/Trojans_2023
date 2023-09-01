@@ -1,14 +1,46 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Poppins:wght@200;300;400;500&display=swap');
+
+
+:root {
+    --trojan-title: 'Assassin$';
+    --title-font: 'Poppins';
+    --title-color: #DCDCDC;
+    --trojan-title-font-weight: 400;
+    --trojan-title-font: 96px;
+    --line-color: #fff;
+    --timer-color: #9133F5;
+    --register-filter: drop-shadow(7px 7px 5px rgba(148, 87, 235, 0.61));
+    --event-box: #101010 --button-text: 'Iceland'
+
+
+}
+
+
 body{
     background-color: #000;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .homePage{
     background-color: #000;
     color:white;
-    width: 100%;
-}
-p{
-    text-align: justify;
+    /* overflow: hidden; */
 }
 
 .intro{
@@ -36,7 +68,7 @@ p{
 
 .trojanshead{
     color: #dbdbdb;
-    font-family: "Assassin$-Regular", Helvetica;
+    font-family: var(--trojan-title);
     font-size: 250px;
     font-weight: 400;
     letter-spacing: 25px;
@@ -47,14 +79,14 @@ p{
     text-align:justify;
 }
 .line{
-    border-top:2px solid white;
+    border-top:2px solid var(--line-color);
     margin-inline:20px;
     width:85%;
 }
 
 .heroTrojans{
-    color: #dbdbdb;
-    font-family: "Assassin$-Regular", Helvetica;
+    color:var(--title-color);
+    font-family: var(--trojan-title);
     font-size: 64px;
     font-weight: 400;
     letter-spacing: 6.4px;
@@ -63,10 +95,10 @@ p{
 }
 
 .heroDesc{
-    color: #ffffff;
-    font-family: "Assassin$-Regular", Helvetica;
+    color:var(--title-color);
+    font-family: var(--trojan-title);
     font-size: 48px;
-    font-weight: 400;
+    font-weight: var(--trojan-title-font-weight);
     letter-spacing: 4.8px;
     line-height: normal;
     white-space: nowrap;
@@ -74,8 +106,8 @@ p{
 }
 
 .heroDate{
-    color: #ffffff;
-    font-family: "Poppins", Helvetica;
+    color:var(--line-color);
+    font-family: var(--trojan-title);
     font-size: 48px;
     font-weight: 400;
     letter-spacing: 4.8px;
@@ -93,7 +125,7 @@ p{
 }
 .registerButton {
     color: #ffffff;
-    font-family: "Iceland", Helvetica;
+    font-family: var(--button-text);
     font-size: 36px;
     font-weight: 400;
     letter-spacing: 0;
@@ -105,7 +137,7 @@ p{
     border: 1px solid white;
     background-origin: border-box;
     background-clip: content-box, padding-box, padding-box, padding-box;
-    box-shadow: 4px 4px 4px 2px rgba(96, 3, 96, 0.5); /* Use rgba() for transparency */
+    filter: var(--register-filter);
 }
 .registerButton:hover{
     background:rgba(96, 3, 96, 0.1);
@@ -128,12 +160,13 @@ p{
 }
 .aboutHead2{
     font-size: 40px;
-    font-family: "Iceland", Helvetica;
+    font-family:var(--title-font);
     letter-spacing: 4px;
-    border:1px solid white;
-    border-radius: 40px;
+    /* border:1px solid var(--line-color); */
+    /* border-radius: 40px; */
     padding:20px;
-    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0,131)100.2%);
+    text-transform: uppercase;
+    /* background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0,131)100.2%); */
 }
 .aboutContainer{
     display: flex;
@@ -153,7 +186,7 @@ p{
     font-size: 25px;
     line-height: 1.5;
     letter-spacing: 1px;
-    font-family: "Iceland", Helvetica;
+    font-family: var(--title-font);
 }
 .rightAbout{
     display:flex;
@@ -164,7 +197,7 @@ p{
     font-size: 25px;
     line-height: 1.5;
     letter-spacing: 1px;
-    font-family: "Iceland", Helvetica;
+    font-family:var(--title-font);
 }
 
 .logo2{
@@ -180,12 +213,12 @@ p{
 
 .eventHead2{
     font-size: 40px;
-    font-family: "Iceland", Helvetica;
+    font-family: var(--title-font);
     letter-spacing: 4px;
-    border:1px solid white;
     border-radius: 40px;
     padding:20px;
-    background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0,131)100.2%);
+    text-transform: uppercase;
+    /* background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0,131)100.2%); */
 }
 
 
@@ -205,10 +238,11 @@ p{
     align-items: center;
     width:30%;
     margin:2%;
-    border-radius: 50px;
+    border-radius: 30px;
     padding:5%;
     height:fit-content;
-    border:2px solid white;
+    border:2px solid var(--line-color);
+    background: var(--event-box);
     box-shadow:0px 0px 10px rgba(145, 7, 187, 0.7),
     0px 0px 5px rgba(38, 4, 160, 0.7),
     0px 0px 5px rgba(227, 3, 178, 0.7),

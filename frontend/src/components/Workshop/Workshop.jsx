@@ -153,7 +153,7 @@ function Workshop() {
                   <h2 className="work_card__title"><span className="work_tags">{"<"}</span>{event.eventname}<span className="work_tags">{"/>"}</span></h2>
                   <p className="work_card_description">{event.eventdescription}</p>
                   <a
-                    // href="#"
+                    
                     class="work_card__button"
                     onClick={() => {
                       shareData(event);
