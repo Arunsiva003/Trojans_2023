@@ -1,0 +1,85 @@
+.card {
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  height: max-content;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(145, 7, 187, 0.7),
+    0px 0px 5px rgba(38, 4, 160, 0.7),
+    0px 0px 5px rgba(227, 3, 178, 0.7),
+    0px 0px 10px rgba(146, 2, 165, 0.7);
+  border: 2px solid white;
+  /* box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px; background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB); */
+  /* background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131)100.2%); */
+}
+
+.card__content {
+  background: rgb(5, 6, 45);
+  border-radius: 17px;
+  width: 100%;
+  height: max-content;
+}
+
+.main_detail {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* align-items: center; */
+  width: 100vw;
+  /* background-color: red; */
+  min-height: 100vh;
+
+  color: white;
+  background: linear-gradient(315deg,#3d055f,#2c063a,#2f0340,#1c0225,#0f0115,#131213);
+  background-size: 360% 360%;
+  animation: gradient-animation 18s ease infinite;
+}
+ @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+
+#detail_inside {
+  margin-inline: 30px;
+  /* background-color: red; */
+}
+
+#detail_heading {
+  /* padding: 50px;
+      font-size: 50px; */
+  align-self: center;
+  justify-self: center
+}
+
+.first {
+  display: flex;
+  flex-direction: column; /* Stack the children vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  width: 90%;
+}
+
+.first_1 {
+  align-self: flex-start;
+
+  margin-bottom: 20px; /* Add some spacing between first_1 and first_2 */
+}
+
+.first_2 {
+  text-align: center; /* Center the text content horizontally */
+}
+
+
+.goback {
+  /* align-self: flex-start; */
+}

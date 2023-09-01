@@ -43,7 +43,9 @@ p{
     line-height: normal;
     position: absolute;
 }
-
+p{
+    text-align:justify;
+}
 .line{
     border-top:2px solid white;
     margin-inline:20px;
