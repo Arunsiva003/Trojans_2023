@@ -10,6 +10,17 @@ import Logo from '../../images/Trojans/trojansLogo.png';
 import Logo2 from '../../images/Trojans/OnlyLogo_White.webp';
 import citLogo from "../../images/Trojans/cit_white_logo.webp";
 import { useState } from 'react';
+
+
+//event images
+import event4 from '../../images/Trojans/event1.svg';
+import event3 from '../../images/Trojans/event2.svg';
+import event2 from '../../images/Trojans/event3.svg';
+import event1 from '../../images/Trojans/event4.svg';
+
+
+
+
 //non tech images
 import shot from "../../images/NonTech/One_Shot.jpeg";
 import brain from "../../images/NonTech/Brainaholic.jpeg";
@@ -402,10 +413,22 @@ export default function Home() {
             <div className='eventHead2'>Events</div>
           </div>
           <div className='eventContainer'>
-            <div onClick={tech}>Technical</div>
-            <div onClick={nontech}>Non technical</div>
-            <div onClick={workshop}>Workshop</div>
-            <div>Sponsors</div>
+            <div className="eventBox" onClick={tech}>
+              <img src={event1} alt="img" className="eventImage" />
+              Technical
+            </div>
+            <div className="eventBox" onClick={nontech}>
+              <img src={event2} alt="img" className="eventImage" />
+              Funtech
+            </div>
+            <div className="eventBox" onClick={workshop}>
+              <img src={event3} alt="img" className="eventImage" />
+              Online Events
+            </div>
+            <div className="eventBox" >
+              <img src={event4} alt="img" className="eventImage" />
+              Workshops
+            </div>  
           </div>
         </div>
 
@@ -413,8 +436,8 @@ export default function Home() {
 
 
 
-        <ContactUs/>
-        <Footer/>
+        {/* <ContactUs/> */}
+        {/* <Footer/> */}
     </div>
   )
 }
