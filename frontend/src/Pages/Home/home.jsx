@@ -2,11 +2,25 @@ import React from 'react'
 import './home.css'
 import Timer from '../../components/timer';
 import Scroller from '../../components/scroller';
+import ContactUs from "../../components/ContactUs/ContactUs";
+import Footer from '../../components/Footer/Footer';
+
 import { useNavigate } from 'react-router-dom';
 import Logo from '../../images/Trojans/trojansLogo.png';
 import Logo2 from '../../images/Trojans/OnlyLogo_White.webp';
 import citLogo from "../../images/Trojans/cit_white_logo.webp";
 import { useState } from 'react';
+
+
+//event images
+import event4 from '../../images/Trojans/event1.svg';
+import event3 from '../../images/Trojans/event2.svg';
+import event2 from '../../images/Trojans/event3.svg';
+import event1 from '../../images/Trojans/event4.svg';
+
+
+
+
 //non tech images
 import shot from "../../images/NonTech/One_Shot.jpeg";
 import brain from "../../images/NonTech/Brainaholic.jpeg";
@@ -20,7 +34,7 @@ import  Quiz from "../../images/Tech/QuizTopher.jpg"
 //workshop images
 
 export default function Home() {
-  const navigate=useNavigate();
+
   const cit ="Chennai Institute of Technology (CIT Chennai) is an Industry Connected Institute, affiliated to Anna University and is a co-educational engineering college located at Kundrathur, Chennai, Tamil Nadu, India. It was established in 2010 and was established with an objective of providing quality technical education with adequate industrial exposure than any other college in Chennai."
   const eventType = ["Technical", "FunTech","Online","Workshop"]
   const Nontechdatas = [
@@ -337,7 +351,7 @@ export default function Home() {
 
 
 
-
+  const navigate = useNavigate();
 
 
   const tech=()=>{
@@ -399,14 +413,31 @@ export default function Home() {
             <div className='eventHead2'>Events</div>
           </div>
           <div className='eventContainer'>
-            <div onClick={tech}>Technical</div>
-            <div onClick={nontech}>Non technical</div>
-            <div onClick={workshop}>Workshop</div>
-            <div>Sponsors</div>
+            <div className="eventBox" onClick={tech}>
+              <img src={event1} alt="img" className="eventImage" />
+              Technical
+            </div>
+            <div className="eventBox" onClick={nontech}>
+              <img src={event2} alt="img" className="eventImage" />
+              Funtech
+            </div>
+            <div className="eventBox" onClick={workshop}>
+              <img src={event3} alt="img" className="eventImage" />
+              Online Events
+            </div>
+            <div className="eventBox" >
+              <img src={event4} alt="img" className="eventImage" />
+              Workshops
+            </div>  
           </div>
         </div>
 
 
+
+
+
+        <ContactUs/>
+        {/* <Footer/> */}
     </div>
   )
 }
