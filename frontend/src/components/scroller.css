@@ -22,7 +22,7 @@
   
   .bar_content {
     display: block; /* Important to give the content a width */
-    font-size: 55px;
+    font-size: 50px;
     width: 100%;
     transform: translateX(100%); /* Animation start out of the screen */
     font-family: "Poppins", Helvetica;
@@ -34,4 +34,22 @@
   /* Create the animation */
   @keyframes move {
     to { transform: translateX(-100%); }
+  }
+
+  @media screen and (max-width: 1240px) {
+    .bar {
+      margin-top:10%;
+      width:100%;
+      padding: 15px 0;
+      background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0,131)100.2%);    animation: glow 4s ease-in-out infinite;
+      overflow: hidden;
+  }
+  .bar_content {
+    font-size: 15px;
+    width: 130%;
+    letter-spacing: 1px;
+    animation: move 20s linear infinite /* infinite make reapeat the animation indefinitely */;
+  }
+  
+  
   }
