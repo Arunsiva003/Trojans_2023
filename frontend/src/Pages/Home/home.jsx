@@ -425,7 +425,7 @@ export default function Home() {
   
   
   const workshop=()=>{
-    
+    navigate("/workshop")
   }
 
   return (
@@ -486,7 +486,7 @@ export default function Home() {
               <img src={event3} alt="img" className="eventImage" />
               Online Events
             </div>
-            <div className="eventBox" >
+            <div className="eventBox" onClick={workshop} >
               <img src={event4} alt="img" className="eventImage" />
               Workshops
             </div>  

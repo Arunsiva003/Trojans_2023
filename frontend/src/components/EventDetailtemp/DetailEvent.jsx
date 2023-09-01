@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Detail.css"
+import back from "../../images/back.png"
 import { useLocation, useNavigate, useParams} from 'react-router-dom';
 function DetailEvent() {
     const location = useLocation();
     const { eventtype,name } = useParams()
     const navigate= useNavigate();
-    // const navigate=useNavigate();
     const { state } = location;
     const descriptionPoints = state.description.split('\n').filter(point => point.trim() !== '');
     console.log(eventtype,name)
@@ -16,8 +16,8 @@ function DetailEvent() {
   return (
     <div className='main_detail'>
        <div className='first'>
-        <div className='first_1'><h1 onClick={gotoevent} className='goback'>go back</h1></div>
         <div className='first_2'><h1 id="detail_heading">{name}</h1></div>
+        <div className='first_1'><img onClick={gotoevent} src={back} className='goback'/></div>
        </div>
         <div class="card">
             <div class="card__content">

@@ -6,6 +6,7 @@ import Sponsors from "./components/Sponsors/Sponsors";
 
 import DetailEvent from "./components/EventDetailtemp/DetailEvent";
 import Workshop from "./components/Workshop/Workshop";
+import WorkDetail from "./components/WorkDetail/WorkDetail";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             {/* <Route path="/contact" element={<ContactUs />} />
             {/* <Route path="/eventdetail" element={<DetailEvent />} /> */}
             <Route path="/workshop" element={<Workshop />} />
-          
+            <Route path= "/workdetail" element={<WorkDetail/>} />
           <Route path= "/detail/:eventtype/:name" element={<DetailEvent/>} />
           </Routes>
         </div>
