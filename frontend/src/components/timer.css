@@ -23,7 +23,6 @@
 
   text-transform: uppercase;
   letter-spacing: 1px;
-  <<<<<<< HEAD=======
 }
 
 @media screen and (max-width:1240px) {
@@ -45,5 +44,4 @@
     margin: 0 10px;
   }
 
-  >>>>>>>7898c4f2df061cc2e6eda8fbdde9d984f48c3365
 }
