@@ -2,11 +2,25 @@ import React from 'react'
 import './home.css'
 import Timer from '../../components/timer';
 import Scroller from '../../components/scroller';
-import { useNavigate } from "react-router-dom";
+
+import ContactUs from "../../components/ContactUs/ContactUs";
+import Footer from '../../components/Footer/Footer';
+
+import { useNavigate } from 'react-router-dom';
 import Logo from '../../images/Trojans/trojansLogo.png';
 import Logo2 from '../../images/Trojans/OnlyLogo_White.webp';
 import citLogo from "../../images/Trojans/cit_white_logo.webp";
 import { useState } from 'react';
+import stop from "../../images/Online/SHUTTER STOP (1).png";
+import valo from "../../images/Online/valo.png";
+import pubg from "../../images/Online/pubgedited.jpg";
+
+//event images
+import event4 from '../../images/Trojans/event1.svg';
+import event3 from '../../images/Trojans/event2.svg';
+import event2 from '../../images/Trojans/event3.svg';
+import event1 from '../../images/Trojans/event4.svg';
+
 //non tech images
 import shot from "../../images/NonTech/One_Shot.jpeg";
 import brain from "../../images/NonTech/Brainaholic.jpeg";
@@ -20,7 +34,9 @@ import  Quiz from "../../images/Tech/QuizTopher.jpg"
 //workshop images
 
 export default function Home() {
-   const navigate = useNavigate();
+
+  //  const navigate = useNavigate();
+
   const cit ="Chennai Institute of Technology (CIT Chennai) is an Industry Connected Institute, affiliated to Anna University and is a co-educational engineering college located at Kundrathur, Chennai, Tamil Nadu, India. It was established in 2010 and was established with an objective of providing quality technical education with adequate industrial exposure than any other college in Chennai."
   const eventType = ["Technical", "FunTech","Online","Workshop"]
   const Nontechdatas = [
@@ -228,6 +244,62 @@ export default function Home() {
 
    
   ];
+      const OnlineDatas = [
+      {eventname:"Valorant(Online)",
+        imageSrc: valo,
+        duration:"10",
+        description:`GENERAL RULES:
+        ●	Team Head(Captain) must register with a unique Team Name,5 members and no substitutes.
+        ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
+        ●	Event is conducted in Online mode.
+        ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
+        ●	MAP TOOL : BIND,HAVEN,SPLIT,ASCENT,ICEBOX,BREEZE.
+        ●	Tournament Admin will make decision based upon Regional latency.
+        `,
+        coordinators:`VS Kanna `,
+        timing:"1hrs",
+        buttonText: "View More",
+      },
+      {eventname:"Shutter Stop(Online)",
+        imageSrc: stop,
+        duration:"10",
+        description:`GENERAL RULES:
+        •	EACH TEAM SHOULD CONSISTS A MAXIMUM OF 3 MEMBERS.
+        •	THERE WILL BE 3 ROUNDS.
+        •	ALL THE 3 ROUNDS WILL BE TIMER BASED.
+        ROUND 1:
+        •	IT WILL BE A MCQ ROUND.
+        •	QUESTIONS WILL BE BASED ON PYTHON, C, C++, JAVA.
+        •	THE TIME DURATION FOR EACH QUESTION WILL BE 20 SECONDS.
+        ROUND 2:
+        •	IT WILL BE A MEME BASED MCQ ROUND.
+        •	QUESTIONS WILL BE BASED ON ALGORITHMS AND TECHNICAL TERMS.
+        •	THE TIME DURATION FOR ANSWERING THE QUIZ AFTER THE MEME IS DISPLAYED WILL BE 10 SECONDS.
+        ROUND 3:
+        •	IT WILL BE SPOT THE ERROR ROUND.
+        •	PARTICIPANTS NEED TO SPOT THE ERRORS IN THE GIVEN CODE AND NEED TO SAY THE NUMBER OF ERRORS.
+        •	PAPER AND PEN WILL BE PROVIDED FOR DEBUGGING.
+        •	EACH CODE WILL BE DISPLAYED FOR 40 SECONDS.
+        `,
+        coordinators:"VISHAL RK ,	ABHISHEK DAS ,	SUBITHA S ,	PRANAVI RETHIKA VS ,	SYED NADEEM G ",
+        timing:"1hrs",
+        buttonText: "View More"
+      },
+      {eventname:"BGMI (Offline)",
+        imageSrc: pubg,
+        duration:"10",
+        description:`GENERAL RULES:
+         ●	Team Head(Captain) must register with a unique Team Name,4 members and no substitutes.
+        ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
+        ●	Event is conducted in Offline mode.
+        ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
+        ●	Tournament Admin will make decision based upon Regional latency.
+        `,
+        coordinators:`V S Kanna `,
+        timing:"1hrs",
+        buttonText: "View More",
+      }
+    ];
 //   const workshopdata= [
 //     {
 //       eventname: "Advanced Web Development",
@@ -337,7 +409,7 @@ export default function Home() {
 
 
 
-
+  const navigate = useNavigate();
 
 
   const tech=()=>{
@@ -346,6 +418,9 @@ export default function Home() {
   }
   const nontech = () => {
     navigate('/events/FunTech', { state: { eventData: Nontechdatas } });
+  }
+  const online = () => {
+    navigate('/events/Online', { state: { eventData: OnlineDatas } });
   }
   
   
@@ -399,14 +474,31 @@ export default function Home() {
             <div className='eventHead2'>Events</div>
           </div>
           <div className='eventContainer'>
-            <div onClick={tech}>Technical</div>
-            <div onClick={nontech}>Non technical</div>
-            <div onClick={workshop}>Workshop</div>
-            <div>Sponsors</div>
+            <div className="eventBox" onClick={tech}>
+              <img src={event1} alt="img" className="eventImage" />
+              Technical
+            </div>
+            <div className="eventBox" onClick={nontech}>
+              <img src={event2} alt="img" className="eventImage" />
+              Funtech
+            </div>
+            <div className="eventBox" onClick={online}>
+              <img src={event3} alt="img" className="eventImage" />
+              Online Events
+            </div>
+            <div className="eventBox" >
+              <img src={event4} alt="img" className="eventImage" />
+              Workshops
+            </div>  
           </div>
         </div>
 
 
+
+
+
+        <ContactUs/>
+        <Footer/>
     </div>
   )
 }
