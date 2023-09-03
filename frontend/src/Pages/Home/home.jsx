@@ -373,8 +373,8 @@ export default function Home() {
 
 
         <div className='eventsHome'>
-          <div className='eventHead'>
-            <div className='eventHead2'>Events</div>
+          <div className='eventHead' id="events">
+            <div className='eventHead2'  >Events</div>
           </div>
           <div className='eventContainer'>
             <div className="eventBox" onClick={tech}>

@@ -23,9 +23,9 @@ function Navbar() {
       </div>
       <div className="nav_2">
         <h2 className="links">Home</h2>
-        <h2 className="links">Events</h2>
-        <h2 className="links">Workshop</h2>
-        <h2 className="links">Sponsors</h2>
+        <h2 className="links"><a href="#events">Events</a></h2>
+        <h2 className="links"><Link to="/workshop">Workshop</Link></h2>
+        <h2 className="links"><Link to="/sponsors">Sponsors</Link></h2>
         <h2 className="links">Register</h2>
       </div>
     </div>

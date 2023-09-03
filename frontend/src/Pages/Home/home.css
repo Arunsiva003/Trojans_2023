@@ -216,7 +216,9 @@ p{
     font-family: var(--title-font);
     letter-spacing: 4px;
     border-radius: 40px;
-    padding:20px;
+    padding:10px;
+    position: relative;
+    top: 70px;
     text-transform: uppercase;
     /* background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0,131)100.2%); */
 }

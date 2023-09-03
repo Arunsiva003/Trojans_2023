@@ -83,3 +83,11 @@
 .goback {
   /* align-self: flex-start; */
 }
+@media screen and (max-width:1024px) {
+  .first_2{
+    margin-bottom: 20px;
+  }
+  .first_1{
+    margin: 0px;
+  }
+}

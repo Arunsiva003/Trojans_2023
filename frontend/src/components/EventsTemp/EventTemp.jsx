@@ -50,8 +50,8 @@ timing:event.timing,
               </div>
             </div>
             <div className="types">
-                <span style={{backgroundColor: 'rgba(165, 96, 247, 0.43)', color: 'rgb(85, 27, 177)'}} className="project-type">• Analytics</span>
-                <span className="project-type">• Dashboards</span>
+                <span style={{backgroundColor: 'rgba(165, 96, 247, 0.43)', color: 'rgb(85, 27, 177)'}} className="project-type">•{eventName}</span>
+                <span className="project-type">• Trojans</span>
           </div>
 
           </div>

@@ -1,3 +1,16 @@
+
+:root {
+  --trojan-title: 'Assassin$';
+  --title-font: 'Poppins';
+  --title-color: #DCDCDC;
+  --trojan-title-font-weight: 400;
+  --trojan-title-font: 96px;
+  --line-color: #fff;
+  --timer-color: #9133F5;
+  --register-filter: drop-shadow(7px 7px 5px rgba(148, 87, 235, 0.61));
+  --event-box: #101010 --button-text: 'Iceland'
+
+}
 .article-wrapper {
     width: 20%;
     -webkit-transition: 0.15s all ease-in-out;
@@ -159,7 +172,8 @@ height: fit-content;
     color: white;
     margin-inline:auto;
     height: 10%;
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-family: var(--trojan-title)
   }
   .image_event{
     height: 100%;

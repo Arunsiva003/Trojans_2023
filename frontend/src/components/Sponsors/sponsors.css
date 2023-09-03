@@ -15,7 +15,9 @@
     margin: 0;
     background: black;
     flex-direction: column;
-
+    background: linear-gradient(315deg,#3d055f,#2c063a,#2f0340,#1c0225,#0f0115,#131213);
+    background-size: 360% 360%;
+    animation: gradient-animation 18s ease infinite;
 
 }
 .sponsor_up{
