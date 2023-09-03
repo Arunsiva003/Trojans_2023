@@ -169,11 +169,11 @@ height: fit-content;
 
   
   .heading_event{
-    color: white;
+    color:var(--title-color);
     margin-inline:auto;
     height: 10%;
-    /* font-size: 60px; */
-    font-family: var(--trojan-title)
+    font-size: var(--trojan-title-font);
+    font-family: var(--trojan-title);
   }
   .image_event{
     height: 100%;
