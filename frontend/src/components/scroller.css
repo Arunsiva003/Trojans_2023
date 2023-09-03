@@ -22,11 +22,11 @@
   
   .bar_content {
     display: block; /* Important to give the content a width */
-    font-size: 48px;
+    font-size: 45px;
     width: 100%;
     transform: translateX(100%); /* Animation start out of the screen */
     font-family: "Poppins", Helvetica;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     /* Add the animation */
     animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
   }
