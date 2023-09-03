@@ -12,7 +12,8 @@
     --line-color: #fff;
     --timer-color: #9133F5;
     --register-filter: drop-shadow(7px 7px 5px rgba(148, 87, 235, 0.61));
-    --event-box: #101010 --button-text: 'Iceland'
+    --event-box: #101010 ;
+    --button-text: 'Iceland';
 
 
 }
@@ -104,7 +105,7 @@ p{
     letter-spacing: 4.8px;
     line-height: normal;
     white-space: nowrap;
-    width: 586px;
+    /* width: 586px; */
 }
 
 .registerBox{
@@ -143,7 +144,6 @@ p{
 }
 
 .aboutHead{
-    
     display:flex;
     margin:0;
     justify-content: center;
@@ -172,10 +172,10 @@ p{
 }
 .leftAbout{
     flex:1;
-    padding:20px;
+    /* padding:20px; */
     justify-content: center;
-    font-size: 25px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 180%;
     letter-spacing: 1px;
     font-family: var(--title-font);
 }
@@ -183,16 +183,16 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding:20px;
+    /* padding:20px; */
     flex:1;
-    font-size: 25px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 180%;
     letter-spacing: 1px;
     font-family:var(--title-font);
 }
 
 .logo2{
-    width: 80%;
+    width: 50%;
     height: 88%;
 }
 
@@ -256,10 +256,10 @@ p{
 
 
 @media screen and (max-width:1240px){
-
+    
     .homePage{
         color:white;
-
+        width: 100%;
     }
 
     .homeLogo{
@@ -269,7 +269,6 @@ p{
 
 .trojanshead{
     color: #dbdbdb;
-    font-family: "Assassin$-Regular", Helvetica;
     font-size: 400%;
     font-weight: 400;
     letter-spacing: 5px;
@@ -288,7 +287,7 @@ p{
 
 .heroTrojans{
     color: #dbdbdb;
-    font-family: "Assassin$-Regular", Helvetica;
+    /* font-family: "Assassin$-Regular", Helvetica; */
     font-size: 34px;
     font-weight: 400;
     letter-spacing: 3.2px;
@@ -298,7 +297,7 @@ p{
 
 .heroDesc{
     color: #ffffff;
-    font-family: "Assassin$-Regular", Helvetica;
+    /* font-family: "Assassin$-Regular", Helvetica; */
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 1.8px;
@@ -324,6 +323,11 @@ p{
     flex-direction: column;
     width:100%;;
 }
+
+.aboutHead{
+    height: fit-content;
+
+}
 .firstAbout{
     display: flex;
     flex-direction: column;
@@ -333,25 +337,13 @@ p{
     flex-direction: column-reverse;
 }
 
-.intro{
-    /* display:none; */
-}
-
-
-
-
-
-.hero{
-    /* display: none; */
-}
-.homeAbout{
-    
-}
 .aboutLogo{
-    width: 50%;
+    width: 80%;
+    height:50%
 }
+
 .logo2{
-    width:50%;
+    margin-top: 10%;
 }
 .leftAbout{
     padding: 0;

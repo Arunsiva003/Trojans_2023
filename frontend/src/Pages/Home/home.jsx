@@ -40,6 +40,8 @@ export default function Home() {
   //  const navigate = useNavigate();
 
   const cit ="Chennai Institute of Technology (CIT Chennai) is an Industry Connected Institute, affiliated to Anna University and is a co-educational engineering college located at Kundrathur, Chennai, Tamil Nadu, India. It was established in 2010 and was established with an objective of providing quality technical education with adequate industrial exposure than any other college in Chennai."
+  const trojans="Trojans is a National Level Technical Symposium organized by the department of Information Technology, Chennai Institute of Technology. Trojans emerged from the shadows on March 13th, 2022. Trojans aims to provide a platform for students to explore and exhibit their talents as well as learn about various technologies that persist in the IT industry. Our name is inspired from the historical trojan horse, which was a clever instrument used in the trojan war to turn the tides of the war. Our symposium, was also conceived by similar clever maneuvers and has now become a phenomenon of great significance and flair."
+  
   const eventType = ["Technical", "FunTech","Online","Workshop"]
   const Nontechdatas = [
     {eventname:"One-Shot",
@@ -366,7 +368,7 @@ export default function Home() {
               </div>
               <div className='firstAbout2'>
                   <div className='leftAbout'>  
-                    <p>{cit}</p>
+                    <p>{trojans}</p>
                   </div>
                   <div className='rightAbout'>
                     <img src={Logo2} alt="cit" className='logo2'/>

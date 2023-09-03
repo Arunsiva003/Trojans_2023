@@ -15,7 +15,6 @@
 .laptop_nav{
   width: 98%;
   height: 10vh;
-  /* background-color: red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -207,14 +206,16 @@ text-decoration: none;
   font-size: 15px;
 }
 .pt-5 .nav-lst .nvg-opt {
-  color: rgb(22, 199, 231);
-  text-decoration: none;
+  background-image: linear-gradient(to right, #eb42eb, #4e0e8f);
+  -webkit-background-clip: text;
+  color: transparent;  text-decoration: none;
+  font-family: var(--title-font);
   font-size: 3em;
   padding: 5px 20px;
   display: inline-flex;
   font-weight: 700;
   transition: 0.5s;
-  text-shadow: 0 0 3px #ffffff;
+  text-shadow: 0 0 3px rgb(147,3,150,0.5);
   padding: 20px;
 }
 .pt-5:hover .nav-lst .nvg-opt {
