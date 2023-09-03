@@ -26,7 +26,7 @@ function Navbar() {
         <h2 className="links"><a href="#events">Events</a></h2>
         <h2 className="links"><Link to="/workshop">Workshop</Link></h2>
         <h2 className="links"><Link to="/sponsors">Sponsors</Link></h2>
-        <h2 className="links"><a href='https://forms.gle/73pTcgqmeRREtKuR8'>Register</a></h2>
+        <h2 className="links"><a href="https://forms.gle/73pTcgqmeRREtKuR8" target="_blank" rel="noopener noreferrer">Register</a></h2>
       </div>
     </div>
     <div className="mobile_nav">
@@ -70,10 +70,10 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-lst">
-            <a href='https://forms.gle/73pTcgqmeRREtKuR8' className="nvg-opt" data-text="Register" onClick={closeMenu}>
-              Register
-            </a>
-          </li>
+          <a href="https://forms.gle/73pTcgqmeRREtKuR8" target="_blank" rel="noopener noreferrer" className="nvg-opt" data-text="Register" onClick={closeMenu}>
+  Register
+</a>
+    </li>
         </ul>
       </nav>
     </div>

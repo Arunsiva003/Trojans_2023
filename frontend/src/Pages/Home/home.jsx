@@ -32,6 +32,7 @@ import  CodeBeat from "../../images/Tech/CodeBeats1.jpg"
 import  Code from "../../images/Tech/CodersChemistry.jpg"
 import  Quiz from "../../images/Tech/QuizTopher.jpg"
 import Navbar from '../../components/Navbar/Navbar.jsx';
+import Backgrd from '../../components/Background/Backgrd';
 //workshop images
 
 export default function Home() {
@@ -324,6 +325,7 @@ export default function Home() {
 
   return (
     <div className='homePage'>
+      <Backgrd/>
       <Navbar/>
       <div className='intro'>
             <p className='trojanshead'>TROJANS</p> 
@@ -342,7 +344,7 @@ export default function Home() {
           {/* <div className="registerBox">
               <div className="registerButton">REGISTER</div>
           </div> */}
-          <h2 className='button-89' id="register_b" ><a href='https://forms.gle/73pTcgqmeRREtKuR8'>Register</a></h2>
+          <h2 className='button-89' id="register_b" ><a  href="https://forms.gle/73pTcgqmeRREtKuR8" target="_blank" rel="noopener noreferrer">Register</a></h2>
         
           <Scroller/>
         </div>
