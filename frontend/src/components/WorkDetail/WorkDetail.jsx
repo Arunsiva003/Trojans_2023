@@ -7,6 +7,7 @@ function WorkDetail() {
   const location = useLocation();
   const navigate = useNavigate();
   const { state } = location;
+  const coordinatorsArray = state.coordinators.split(',');
   console.log(state)
   // Split the description into an array of points
   const descriptionPoints = state.description.split('\n').filter(point => point.trim() !== '');
@@ -37,7 +38,15 @@ function WorkDetail() {
               <h3 key={index} className='detail_descp_point'>{point}</h3>
             ))}
           </div>
-          <h2 className='detail_time'>Coordinators:<br/>{state.coordinators} </h2>
+
+
+          <h2 className='detail_time'>Coordinators:</h2>
+            
+          <div className='coordinatorsList'>
+          {coordinatorsArray.map((coordinator, index) => (
+  <div key={index}>{coordinator}<br/></div>
+))}
+            </div> 
           {/* Display other event details */}
         </div>
       </div>

@@ -7,6 +7,7 @@ function DetailEvent() {
     const { eventtype,name } = useParams()
     const navigate= useNavigate();
     const { state } = location;
+    const coordinatorsArray = state.coordinators.split(',');
     const descriptionPoints = state.description.split('\n').filter(point => point.trim() !== '');
     console.log(eventtype,name)
     const gotoevent=()=>{
@@ -36,7 +37,14 @@ function DetailEvent() {
               <h3 key={index} className='detail_descp_point'>{point}</h3>
             ))}
           </div>
-          <h2 className='detail_time'>Coordinators:<span style={{color:"white", textShadow:"none"}}><br/>{state.coordinators}</span> </h2>
+
+
+          <h2 className='detail_time'>Coordinators:</h2>
+          <div className='coordinatorsList'>
+          {coordinatorsArray.map((coordinator, index) => (
+            <div key={index}>{coordinator}<br/></div>
+          ))}
+            </div> 
           {/* Display other event details */}
         </div>
 

@@ -54,18 +54,18 @@ function Footer() {
                     <FooterlLinksContainer
                         title="Events"
                         links={[
-                            {url: "/technical", name: "Technical"},
-                            {url: "/nontechnical", name: "Non - Technical"},
-                            {url: "/workshop", name: "Gaming"},
-                            {url: "/events", name: "Workshops"},
+                            {url: "/#events", name: "Technical"},
+                            {url: "/#events", name: "Non - Technical"},
+                            {url: "/#events", name: "Gaming"},
+                            {url: "/#events", name: "Workshops"},
                         ]}
                     />
                     <FooterlLinksContainer
                         title="About"
                         links={[
-                            {url: "/", name: "Trojans"},
+                            {url: "/#trojans", name: "Trojans"},
                             {url: "/", name: "Department"},
-                            {url: "/", name: "College"},
+                            {url: "/#cit", name: "College"},
                         ]}
                     />
                     <FooterlLinksContainerIcons

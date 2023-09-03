@@ -57,7 +57,7 @@ export default function Home() {
       •	 Reel must be within 1 min 
       •	The capture moments should be in appropriate manner.
       •	Plagiarism is strictly prohibited`,
-      coordinators:"S Sameerul Hak, Vinay Saran JJ,Krishna G,Roshika,Pavi,Rithika",
+      coordinators:"S Sameerul Hak, Vinay Saran JJ, Krishna G, Roshika, Pavi, Rithika",
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -145,10 +145,10 @@ export default function Home() {
       ●	THE TIME DURATION FOR THIS ROUND IS 20 MINUTES.
       `,
       coordinators:`
-      •	HARI PRASAD R - 7550160349,
-      •	SARUMATHI - 
-      •	SHANMUGA PRIYA -  
-      •	SOWMIYA -`,
+      	HARI PRASAD R - 7550160349,
+      	SARUMATHI - ,
+      	SHANMUGA PRIYA - , 
+      	SOWMIYA -`,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -174,11 +174,11 @@ export default function Home() {
       •	EACH CODE WILL BE DISPLAYED FOR 40 SECONDS.
       `,
       coordinators:`
-      •	VISHAL RK – 9956189750  
-      •	ABHISHEK DAS - 
-      •	SUBITHA S - 
-      •	PRANAVI RETHIKA VS - 
-      •	SYED NADEEM G - 
+      	VISHAL RK – 9956189750,  
+      	ABHISHEK DAS - ,
+      	SUBITHA S - ,
+      	PRANAVI RETHIKA VS - , 
+      	SYED NADEEM G - ,
 `,
       timing:"1hrs",
       buttonText: "View More",
@@ -309,7 +309,7 @@ export default function Home() {
 
 
   const tech=()=>{
-    navigate('/events/Techical', { state: { eventData: Techdata } });
+    navigate('/events/Technical', { state: { eventData: Techdata } });
     
   }
   const nontech = () => {
@@ -363,15 +363,15 @@ export default function Home() {
                   <div className='leftAbout'>
                     <img src={citLogo} alt="cit" className='aboutLogo'/>
                   </div>
-                  <div className='rightAbout'>
-                    <p>{cit}</p>
+                  <div className='rightAbout' id="cit" >
+                    <p id='trojans'>{cit}</p>
                   </div>
               </div>
               <div className='firstAbout2'>
                   <div className='leftAbout'>  
                     <p>{trojans}</p>
                   </div>
-                  <div className='rightAbout'>
+                  <div className='rightAbout' >
                     <img src={Logo2} alt="cit" className='logo2'/>
                   </div>
               </div>
