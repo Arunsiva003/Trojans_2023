@@ -144,7 +144,6 @@ p{
 }
 
 .aboutHead{
-    
     display:flex;
     margin:0;
     justify-content: center;
@@ -173,10 +172,10 @@ p{
 }
 .leftAbout{
     flex:1;
-    padding:20px;
+    /* padding:20px; */
     justify-content: center;
-    font-size: 25px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 180%;
     letter-spacing: 1px;
     font-family: var(--title-font);
 }
@@ -184,16 +183,17 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
-    padding:20px;
+    /* padding:20px; */
     flex:1;
-    font-size: 25px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 180%;
     letter-spacing: 1px;
     font-family:var(--title-font);
 }
 
 .logo2{
-    width: 80%;
+    margin-top: 10%;
+    width: 65%;
     height: 88%;
 }
 
@@ -264,7 +264,7 @@ p{
     }
 
     .homeLogo{
-        width: 100%;
+        width: 150%;
     }
 
 
@@ -325,6 +325,11 @@ p{
     flex-direction: column;
     width:100%;;
 }
+
+.aboutHead{
+    height: fit-content;
+
+}
 .firstAbout{
     display: flex;
     flex-direction: column;
@@ -335,10 +340,8 @@ p{
 }
 
 .aboutLogo{
-    width: 50%;
-}
-.logo2{
-    width:50%;
+    width: 80%;
+    height:50%
 }
 .leftAbout{
     padding: 0;
