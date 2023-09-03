@@ -132,10 +132,10 @@ function Workshop() {
     <div>
       <div class="work_back">
         <div class="work_cont">
-          <div className="Workshop_title">
-            <h1 className="mobile-view">{"Workshops"}</h1>
-          </div>
-              
+        <div class="content">
+          <h2 className='h2'>Workshop</h2>
+          <h2 className='h2'>Workshop</h2>
+        </div>
           <div class="work_card__container">
             {workshopdata.map((event, index) => (
               <article class="work_card__article work_card" key={index}>

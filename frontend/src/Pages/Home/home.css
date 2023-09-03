@@ -29,6 +29,10 @@ body{
     /* overflow: hidden; */
 }
 
+#register_b{
+    position: relative;
+    top: 40px;
+}
 .intro{
     background-color: black;
     height:fit-content;
@@ -36,6 +40,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .hero{
@@ -45,11 +50,11 @@ body{
     align-items: center;
     background-color: black;
     height:fit-content;
-    gap:20px;
+    gap:10px;
 }
 
 .timer{
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 .trojanshead{
@@ -369,6 +374,8 @@ p{
     font-size: 30px;
     border-radius: 30px;
     padding: 15px;
+    position: relative;
+    top: 0;
 }
 
 

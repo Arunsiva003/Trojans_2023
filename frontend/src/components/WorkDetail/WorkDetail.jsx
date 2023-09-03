@@ -19,7 +19,10 @@ function WorkDetail() {
   return (
     <div className='main_detail'>
       <div className='first'>
-        <div className='first_2'><h1 id="detail_heading">Workshop</h1></div>
+        <div className='first_2'><div class="content">
+          <h2 className='h2'> Detail</h2>
+          <h2 className='h2'> Detail</h2>
+        </div></div>
         <div className='first_1'><img onClick={gotoevent} src={back} className='goback'/></div>
        </div>
       <div className='detail_cont'>

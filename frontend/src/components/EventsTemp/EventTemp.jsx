@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLocation,useNavigate,useParams  } from 'react-router-dom';
 import "./Event.css"
+import Navbar from '../Navbar/Navbar';
 function EventTemp() {
   const location = useLocation();
   const { eventName } = useParams()
@@ -15,11 +16,15 @@ timing:event.timing,
 } });
   }
   return (
-    <div className='container_event'>
-      <h1 className='heading_event'>{eventName}</h1>
+        <div className='container_event'>
+      {/* <h1 className='heading_event'>{eventName}</h1> */}
+        <div class="content">
+          <h2 className='h2'>{eventName}</h2>
+          <h2 className='h2'>{eventName}</h2>
+        </div>
     <div className='event_cont'>
       {eventData.map((event, index) => (
-        <article className="article-wrapper" key={index} onClick={()=>senddata(event)}>
+        <article className="article-wrapper" key={index} >
           <div className="rounded-lg container-project">
             {/* You can render the image (imageSrc) here */}
             <img src={event.imageSrc} alt={event.eventname} className='image_event'/>

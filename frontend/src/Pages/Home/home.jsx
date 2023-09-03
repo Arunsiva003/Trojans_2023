@@ -342,13 +342,17 @@ export default function Home() {
           {/* <div className="registerBox">
               <div className="registerButton">REGISTER</div>
           </div> */}
+          <h2 className='button-89' id="register_b" ><a href='https://forms.gle/73pTcgqmeRREtKuR8'>Register</a></h2>
         
           <Scroller/>
         </div>
 
 
         <div className='homeAbout'>
-          <div className='aboutHead'><div className='aboutHead2'>About Us</div></div>
+          <div className='aboutHead'><div class="content">
+          <h2 className='h2'>About us</h2>
+          <h2 className='h2'>About us</h2>
+        </div></div>
            <div className='aboutContainer'>
               <div className='firstAbout'>
                   <div className='leftAbout'>
@@ -374,7 +378,10 @@ export default function Home() {
 
         <div className='eventsHome'>
           <div className='eventHead' id="events">
-            <div className='eventHead2'  >Events</div>
+          <div class="content">
+          <h2 className='h2'>Events</h2>
+          <h2 className='h2'>Events</h2>
+        </div>
           </div>
           <div className='eventContainer'>
             <div className="eventBox" onClick={tech}>

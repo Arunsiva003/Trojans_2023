@@ -35,9 +35,12 @@ function Sponsors() {
 
   return (
     <div className="sponsors_body">
-      <div className='sponsor_up'>
-        <div className="sponsors_title">Our Sponsors</div>
-      </div>
+      
+      <div class="content">
+          <h2 className='h2'>Sponsors</h2>
+          <h2 className='h2'>Sponsors</h2>
+        </div>
+      
       <div className='sponsors_down'>
             {sponsorData.map((sponsor, index) => (
             <div
