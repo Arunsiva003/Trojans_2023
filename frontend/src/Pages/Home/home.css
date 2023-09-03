@@ -12,7 +12,8 @@
     --line-color: #fff;
     --timer-color: #9133F5;
     --register-filter: drop-shadow(7px 7px 5px rgba(148, 87, 235, 0.61));
-    --event-box: #101010 --button-text: 'Iceland'
+    --event-box: #101010 ;
+    --button-text: 'Iceland';
 
 
 }
@@ -333,20 +334,6 @@ p{
     flex-direction: column-reverse;
 }
 
-.intro{
-    /* display:none; */
-}
-
-
-
-
-
-.hero{
-    /* display: none; */
-}
-.homeAbout{
-    
-}
 .aboutLogo{
     width: 50%;
 }
