@@ -192,8 +192,7 @@ p{
 }
 
 .logo2{
-    margin-top: 10%;
-    width: 65%;
+    width: 50%;
     height: 88%;
 }
 
@@ -257,10 +256,10 @@ p{
 
 
 @media screen and (max-width:1240px){
-
+    
     .homePage{
         color:white;
-
+        width: 100%;
     }
 
     .homeLogo{
@@ -270,7 +269,6 @@ p{
 
 .trojanshead{
     color: #dbdbdb;
-    font-family: "Assassin$-Regular", Helvetica;
     font-size: 400%;
     font-weight: 400;
     letter-spacing: 5px;
@@ -289,7 +287,7 @@ p{
 
 .heroTrojans{
     color: #dbdbdb;
-    font-family: "Assassin$-Regular", Helvetica;
+    /* font-family: "Assassin$-Regular", Helvetica; */
     font-size: 34px;
     font-weight: 400;
     letter-spacing: 3.2px;
@@ -299,7 +297,7 @@ p{
 
 .heroDesc{
     color: #ffffff;
-    font-family: "Assassin$-Regular", Helvetica;
+    /* font-family: "Assassin$-Regular", Helvetica; */
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 1.8px;
@@ -342,6 +340,10 @@ p{
 .aboutLogo{
     width: 80%;
     height:50%
+}
+
+.logo2{
+    margin-top: 10%;
 }
 .leftAbout{
     padding: 0;
