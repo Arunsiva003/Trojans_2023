@@ -24,11 +24,15 @@
   z-index: 99;
   background-color:black;
 }
+a{
+  text-decoration: none;
+    color: rgb(195, 40, 210);
+}
 .links{
-
+text-decoration: none;
 }
 .links:hover{
-  color: purple;
+  opacity: 0.5;
 }
 .nav_2{
   display: flex;

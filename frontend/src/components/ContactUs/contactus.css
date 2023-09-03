@@ -74,8 +74,11 @@ font-family: 'Noto Serif', serif;
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   /* background-color: rgba(43, 43, 43, 0.75); */
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: 0 0 5px rgb(144, 17, 105), 0 0 15px rgb(51, 0,131), 0 0 15px rgb(144, 17, 105), 0 0 6px rgb(51, 0,131);
+  box-shadow: 0px 0px 10px rgba(145, 7, 187, 0.7),
+    0px 0px 5px rgba(38, 4, 160, 0.7),
+    0px 0px 5px rgba(227, 3, 178, 0.7),
+    0px 0px 10px rgba(146, 2, 165, 0.7);
+  border: 2px solid white;
 
 }
 .namesof{
@@ -92,7 +95,7 @@ font-family: 'Noto Serif', serif;
   text-decoration: none;
   font-family: 'Roboto',sans-serif;
   /* color: #190061; */
-  color: rgb(90, 105, 147);
+  color: rgb(147, 90, 143);
   font-size: 80%;
 }
 .touch{
@@ -126,19 +129,60 @@ font-family: 'Noto Serif', serif;
   transition: 0.2s ease;
  }
 
-.form_contactus{ 
-  display: flex; /*background-color:rgb(58, 221, 40); */
-  height:fit-content; 
-  width: 80%; 
-  justify-content: center; 
-  align-items: center; 
-  flex-direction: column;  
-  /* box-shadow: 0 0 5px #240090, 0 0 15px #240090, 0 0 15px #240090, 0 0 6px #240090; */
-  box-shadow: 0 0 5px rgb(144, 17, 105), 0 0 15px rgb(51, 0,131), 0 0 15px rgb(144, 17, 105), 0 0 6px rgb(51, 0,131);
-  border-radius:10px ; padding: 10px; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
+.form_contactus{
+  display: flex;
+  /*background-color:rgb(58, 221, 40);
+  */height:fit-content;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*box-shadow: 0 0 5px #240090, 0 0 15px #240090, 0 0 15px #240090, 0 0 6px #240090;
+  */box-shadow: 0px 0px 10px rgba(145, 7, 187, 0.7),  0px 0px 5px rgba(38, 4, 160, 0.7),  0px 0px 5px rgba(227, 3, 178, 0.7),  0px 0px 10px rgba(146, 2, 165, 0.7);
+  border: 2px solid white;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+}
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #d305c9;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
-input{ width: 60%; border-radius: 10px; background-color:black; color: white; margin: 30px; padding: 30px; border: 2px solid #0c0032; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+ 
+input{ width: 60%; border-radius: 10px; background-color:black; color: white; margin: 30px; padding: 30px; border: 2px solid #e402ce; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px;
 }
 input::placeholder{
 color: #56f2e6;
@@ -158,7 +202,7 @@ height: 100%;
 .title_name{
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  color: #5d4cf5;
+  color: #a705a7;
   /* text-shadow: rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 5px, rgb(254, 65, 100) 0px 0px 15px; */
   /* color: white; */
   
@@ -208,7 +252,11 @@ flex-direction: column;
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   /* background-color: rgba(43, 43, 43, 0.75); */
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: 0px 0px 10px rgba(145, 7, 187, 0.7),
+  0px 0px 5px rgba(38, 4, 160, 0.7),
+  0px 0px 5px rgba(227, 3, 178, 0.7),
+  0px 0px 10px rgba(146, 2, 165, 0.7);
+border: 2px solid white;
 }
 .name{
   font-size: 4vw;

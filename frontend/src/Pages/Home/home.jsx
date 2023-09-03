@@ -301,113 +301,6 @@ export default function Home() {
         buttonText: "View More",
       }
     ];
-//   const workshopdata= [
-//     {
-//       eventname: "Advanced Web Development",
-//       iconsrc:<FaDatabase className="work_card__icon"/>,
-//       // imageSrc: p5,
-//       duration: "10",
-
-//       description: 
-//       `Topics :
-//       •	Modern HTML and CSS
-//       •	Javascript and DOM manipulation
-//       •	Front-End Vue.Js
-//       •	Back-End Basics and APIs
-//       •	Web performance and Security
-//       •	Q & A
-// `,
-//       coordinators: "Shalini S",
-//       timing: "1hrs",
-//       buttonText: "Continue Learning",
-//     },
-//     {
-//       eventname: "Advanced Networking Nexus",
-//       // imageSrc: p5,
-//       iconsrc:<FaWifi className="work_card__icon"/>,
-//       duration: "10",
-//       description: `  1)Introduction To Networking
-//                       1.1 what is networking & how it began
-//                       1.2 Networking Topologies
-//                       2) Network Protocols
-//                       2.1 TCP/IP (Transmission Control Protocol/Internet Protocol)
-//                       2.2 DNS (Domain Name System)
-//                       3)Network Devices
-//                       3.1 Sockets and ports
-//                       3.2 Switches
-//                       3.3 Hubs
-//                       3.4 Modems
-//                       4)Routing Protocols: 
-//                       4.1 OSPF (Open Shortest Path First) 
-//                       4.2 BGP (Border Gateway Protocol) 
-//                       4.3 MPLS (Multiprotocol Label Switching) 
-//                       4.4 Network Access Control (NAC) 
-//                       5) Network Security: 
-//                       5.1 Types of network threats (e.g., malware, viruses, phishing) 
-//                       5.2 Firewall and its role 
-//                       5.3 Encryption and VPNs (Virtual Private Networks) 
-//                       5.4 Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) 
-//                       6) Troubleshooting Network Issues: 
-//                       6.1 Common network problems 
-//                       6.2 Network diagnostic tools (e.g., ping, trace-route) 
-//                       6.3 Advanced persistent threats (APTs) and mitigation strategies`,
-//       coordinators: "SRINITHI.S,DEVISRI S ",
-//       timing: "1hrs",
-//       buttonText: "Continue Learning",
-//     },
-//     {
-//       eventname: "Machine Learning and Deep Learning",
-//       iconsrc:<FaConnectdevelop className="work_card__icon"/>,
-//       duration: "10",
-//       description: `*Title: Data Science, Machine Learning, and Deep Learning Workshop*
-//       *Description:*
-//       Immerse yourself in the world of Data Science, Machine Learning, and Deep Learning. This workshop offers a comprehensive exploration of these cutting-edge fields, catering to beginners and intermediate practitioners. Led by industry experts, you'll gain hands-on experience, theoretical insights, and ethical perspectives, all vital for leveraging data-driven decision-making.
-//       Key Points:
-//       •	Data Science Foundations: Grasp data manipulation, exploration, and visualization essentials for a solid data-driven workflow.
-//       •	Machine Learning Essentials: Learn core concepts like supervised/unsupervised learning, model evaluation.
-//       •	Deep Learning Insights: Unveil neural network architecture, training, and applications in diverse domains.
-//       •	Hands-on Coding: Gain practical skills through interactive sessions using industry tools and libraries.
-//       •	Advanced Techniques: Dive into  machine learning, and deep learning.
-//       •	Project Collaboration: Work on data projects.
-
-//       *Who Should Attend:*
-//       - Aspiring Data Scientists, Analysts
-//       - Machine Learning Enthusiasts
-//       - Software Engineers seeking to diversify
-//       - Professionals interested in AI's industry applications
-// `,
-//       coordinators: "Madhan Kumar",
-//       timing: "1hrs",
-//       buttonText: "Continue Learning",
-//     },
-//     {
-//       eventname: "AI Integration with ChatGPT",
-//       iconsrc: <GiRobotAntennas className="work_card__icon"/>,
-//       duration: "10",
-//       description: `You can level up your web development skills by harnessing the power of AI.
-//       In this course, you will build three projects utilizing the OpenAI API and explore the capabilities of ChatGPT, 
-//       Dall-E, and the revolutionary GPT-4 model. Get ready to build a movie pitch generator, an ask-me-anything 
-//       chatbot, and a fine-tuned bot trained on your very own dataset. Let's delve into what you'll learn in this course: 
-//       •	Building fetch requests for the OpenAI API 
-//       •	Exploring OpenAI's models and tools 
-//       •	Mastering the Create Completions endpoint 
-//       •	Harnessing the power of prompt engineering 
-//       •	Unleashing the 'zero shot' and 'few shot' approaches 
-//       •	Understanding the temperature property for creative output 
-//       •	Utilizing the Create Image endpoint with Dall-E 
-//       •	Building chatbots with ChatGPT 
-//       •	Exploring chatbot-specific prompt syntax 
-//       •	Navigating the Create Chat Completions endpoint 
-//       •	Fine-tuning your chatbot for personalized responses 
-//       •	Utilizing Firebase to persist chatbot conversations 
-//       •	Deploying your AI app securely with hidden API keys 
-// `,
-//       coordinators: " ARUN PRANAV A T",
-//       timing: "1hrs",
-//       buttonText: "Continue Learning",
-//     },
-//   ];
-
 
 
   const navigate = useNavigate();
@@ -449,13 +342,17 @@ export default function Home() {
           {/* <div className="registerBox">
               <div className="registerButton">REGISTER</div>
           </div> */}
+          <h2 className='button-89' id="register_b" ><a href='https://forms.gle/73pTcgqmeRREtKuR8'>Register</a></h2>
         
           <Scroller/>
         </div>
 
 
         <div className='homeAbout'>
-          <div className='aboutHead'><div className='aboutHead2'>About Us</div></div>
+          <div className='aboutHead'><div class="content">
+          <h2 className='h2'>About us</h2>
+          <h2 className='h2'>About us</h2>
+        </div></div>
            <div className='aboutContainer'>
               <div className='firstAbout'>
                   <div className='leftAbout'>
@@ -480,8 +377,11 @@ export default function Home() {
 
 
         <div className='eventsHome'>
-          <div className='eventHead'>
-            <div className='eventHead2'>Events</div>
+          <div className='eventHead' id="events">
+          <div class="content">
+          <h2 className='h2'>Events</h2>
+          <h2 className='h2'>Events</h2>
+        </div>
           </div>
           <div className='eventContainer'>
             <div className="eventBox" onClick={tech}>

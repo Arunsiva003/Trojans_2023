@@ -24,17 +24,14 @@
 }
 
 /*=============== BASE ===============*/
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
 .work_back {
     /* max-height: fit-content; */
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
+    width: 100%;
+  
 
 }
 
@@ -46,8 +43,8 @@ a {
 .work_cont {
     display: grid;
     place-items: center;
-    margin-inline: 1.5rem;
-    width: 100vw;
+    /* margin-inline: 1.5rem; */
+    width: 100%;
     background: linear-gradient(315deg,#3d055f,#2c063a,#2f0340,#1c0225,#0f0115,#131213);
   background-size: 360% 360%;
   animation: gradient-animation 18s ease infinite;

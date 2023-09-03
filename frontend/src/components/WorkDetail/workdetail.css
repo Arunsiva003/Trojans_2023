@@ -30,7 +30,7 @@
     flex-direction: column;
     margin-top: 40px;
     /* background-color:aqua; */
-    background-color: black;
+    /* background-color: black; */
     height:max-content;
     width: 90%;
 }
@@ -100,7 +100,7 @@ color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
- @media screen  and (max-width:1024px) {
+ @media screen  and (max-width:786px) {
     .detail_inside{
         display: flex;
         justify-content: space-around;
@@ -118,6 +118,7 @@ color: #ffffff;
     
     color: rgb(0, 0, 0);
 }
+
 .heading-detail{
     margin-inline: auto;
     color: black;

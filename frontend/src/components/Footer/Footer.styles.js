@@ -91,6 +91,7 @@ export const FooterContainer = styled.section`
 
 
 				h2 {
+					color:rgba(227, 3, 178, 0.9);
 					margin-bottom: 1rem;
 				}
 

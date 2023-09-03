@@ -22,10 +22,11 @@ function Navbar() {
         <h1>TROJANS</h1>
       </div>
       <div className="nav_2">
-        <h2 className="links">Home</h2>
-        <h2 className="links">Events</h2>
-        <h2 className="links">About</h2>
-        <h2 className="links">Sponsors</h2>
+        <h2 className="links"><a href="/">Home</a></h2>
+        <h2 className="links"><a href="#events">Events</a></h2>
+        <h2 className="links"><Link to="/workshop">Workshop</Link></h2>
+        <h2 className="links"><Link to="/sponsors">Sponsors</Link></h2>
+        <h2 className="links"><a href='https://forms.gle/73pTcgqmeRREtKuR8'>Register</a></h2>
       </div>
     </div>
     <div className="mobile_nav">
@@ -49,14 +50,14 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-lst">
-            <Link to="/events" className="nvg-opt" data-text="Events" onClick={closeMenu}>
+            {/* <Link to="#events"  data-text="Events" >
               Events
-            </Link>
+            </Link> */}
+            <a href="#events" className="nvg-opt" onClick={closeMenu}>Events</a>
           </li>
           <li className="nav-lst">
-            <Link to="/online" className="nvg-opt" data-text="Gaming" onClick={closeMenu}>
-              Gaming
-            </Link>
+          <a href="#events" className="nvg-opt" onClick={closeMenu}>Online Events</a>
+
           </li>
           <li className="nav-lst">
             <Link to="/workshop" className="nvg-opt" data-text="Workshop" onClick={closeMenu}>

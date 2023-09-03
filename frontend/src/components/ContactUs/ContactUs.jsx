@@ -41,7 +41,10 @@ export default function Contactus(){
         <>
         <div className = "main">
             <div className="left-div_contact">
-                    <h1 id="h1_head">Contact Us</h1>
+            <div class="content">
+          <h2 className='h2'>Contact Us</h2>
+          <h2 className='h2'>Contact Us</h2>
+        </div>
                 <p className="touch"> Get Contact with us to get the unreal form of enjoyment and entertainment</p>
                 <div className="numbers">
                     <span className="name"><span className="title_name">President <span className="namesof">(Mohammed Mujammil)</span>:</span> <a className="a_tag" href="tel:+918681039888">+91 8681039888</a></span>
@@ -52,13 +55,16 @@ export default function Contactus(){
                 
             </div>
             <div className="register">
-                        <h1 id="feedback">Your Opinion</h1>
+            <div class="content">
+          <h2 className='h2'>Feedback</h2>
+          <h2 className='h2'>Feedback</h2>
+        </div>
                         <p className="touch2"></p>
                         <form action="https://formspree.io/f/mnqkpogd"  method="POST" className="form_contactus">
                             <input type="text" name="name" required placeholder="Your Name"/>
                             <input type="text" name="email" required placeholder="Email ID"/>
                             <input type="text" name="message" required placeholder="Message"/>
-                            <button className="btn"  >Submit</button>
+                            <h2 className='button-89' ><a>Submit</a></h2>
                         </form>
             </div>
 
