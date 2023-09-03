@@ -105,7 +105,7 @@ p{
     letter-spacing: 4.8px;
     line-height: normal;
     white-space: nowrap;
-    width: 586px;
+    /* width: 586px; */
 }
 
 .registerBox{
