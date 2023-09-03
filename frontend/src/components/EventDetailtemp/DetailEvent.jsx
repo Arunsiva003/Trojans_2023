@@ -16,7 +16,10 @@ function DetailEvent() {
   return (
     <div className='main_detail'>
        <div className='first'>
-        <div className='first_2'><h1 id="detail_heading">{name}</h1></div>
+        <div className='first_2'><div class="content">
+          <h2 className='h2'>{name}</h2>
+          <h2 className='h2'>{name}</h2>
+        </div></div>
         <div className='first_1'><img onClick={gotoevent} src={back} className='goback'/></div>
        </div>
         <div class="card">

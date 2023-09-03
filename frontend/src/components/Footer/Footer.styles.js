@@ -10,7 +10,12 @@ export const FooterContainer = styled.section`
 	background-color: #100c0c;
 	color: white;
 	text-align: center;
-	box-shadow: 0 0 5px rgb(144, 17, 105), 0 0 15px rgb(51, 0,131), 0 0 15px rgb(144, 17, 105), 0 0 6px rgb(51, 0,131);
+	box-shadow: 0px 0px 10px rgba(145, 7, 187, 0.7),
+    0px 0px 5px rgba(38, 4, 160, 0.7),
+    0px 0px 5px rgba(227, 3, 178, 0.7),
+    0px 0px 10px rgba(146, 2, 165, 0.7);
+	border: 2px solid white;
+	/* box-shadow: 0 0 5px rgb(144, 17, 105), 0 0 15px rgb(51, 0,131), 0 0 15px rgb(144, 17, 105), 0 0 6px rgb(51, 0,131); */
 
 	.footer-top {
 		padding: 0 6rem;
