@@ -9,7 +9,7 @@
 .sponsors_body {
     align-items: center;
     display: flex;
-    height: 100vh;
+    height: 190vh;
     justify-content: center;
     font-family: sans-serif;
     margin: 0;
@@ -34,7 +34,14 @@
     gap: 30px;
     /* background-color: #fff; */
 }
-
+.title_head{
+    font-size: var(--trojan-title-font);
+}
+.sponsor_image{
+    /* background-color: red; */
+    width: 80%;
+    height: 70%
+}
 .sponsors_title {
     color: #dbdbdb;
     font-family: "Assassin$-Regular", Helvetica;
@@ -57,7 +64,7 @@
     border-radius: 8px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     cursor: pointer;
-    height: 50%;
+    height: 60%;
     margin: 20px;
     padding: 0 20px;
     position: relative;
@@ -71,7 +78,7 @@
 
 
 .sponsor_card.expanded {
-    height: 400px;
+    height: 500px;
 }
 
 .sponsor_label {
@@ -136,9 +143,14 @@
 
 .sponsor_body-text {
     padding: 0 20px;
+    cursor: pointer;
 }
 .content{
     margin: 70px;
+}
+.title_img{
+    width: 200px;
+    height: 300px;
 }
 @media (max-width: 900px) {
     .sponsors_body {
@@ -151,26 +163,35 @@
     .h2{
         font-size: 90px;
     }
+    .sponsor_card.expanded{
+        height: 450px;
+    }
+    .Sponsors_name{
+        font-size: 25px;
+    }
 
     .sponsors_title {
         font-size: 50px;
     }
 
     .sponsors_down {
-        height: 90%;
-        width: 100%;
+        height:90%;
+        width: 90%;
         /* Remove the display and justify-content properties */
         /* display: flex;
     justify-content: center; */
         align-items: center;
         /* gap: 70px; */
+        /* background-color: red; */
         flex-direction: column;
     }
 
     /* Center the sponsor_card on mobile */
     .sponsor_card {
         /* backgroundcolor: green; */
-        width: fit-content;
+        width: 90%;
+        /* background-color: red; */
+        height: 50vh;
         /* Adjust the positioning */
         /* left: calc(50% - 20px);
     transform: translateX(-50%); */

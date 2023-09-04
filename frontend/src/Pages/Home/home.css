@@ -14,6 +14,8 @@
     --register-filter: drop-shadow(7px 7px 5px rgba(148, 87, 235, 0.61));
     --event-box: #101010 ;
     --button-text: 'Iceland';
+    --desc-color:#d6a2cf;
+    --title-border-color:rgb(223, 62, 223);
 
 
 }
@@ -46,6 +48,8 @@
     display:flex;
     margin-top:10%;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     align-items: center;
     /* background-color: black; */
     height:fit-content;
@@ -285,12 +289,17 @@ p{
 }
 
 .heroTrojans{
+    align-self: center;
     color: #dbdbdb;
     font-size: 34px;
+    width: 100%;
     font-weight: 400;
     letter-spacing: 3.2px;
     line-height: normal;
-    width: 248px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .heroDesc{
@@ -367,6 +376,8 @@ p{
     position: relative;
     top: 0;
 }
-
+#pt{
+    margin-bottom: 10%;
+}
 
 }

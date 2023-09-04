@@ -191,6 +191,7 @@ height: fit-content;
       font-size: 4vw;
       position: absolute;
       transform: translate(-50%, -50%);
+      /* border-bottom: 3px solid var(--title-border-color); */
     }
     
     .content .h2:nth-child(1) {
@@ -281,7 +282,11 @@ height: fit-content;
     .content .h2 {
       color: #fff;
       font-size: 9vw;
+      width: 100%;
       position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       transform: translate(-50%, -50%);
     }
     .types {

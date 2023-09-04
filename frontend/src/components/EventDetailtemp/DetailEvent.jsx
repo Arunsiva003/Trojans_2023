@@ -26,7 +26,6 @@ function DetailEvent() {
         <div class="card">
             <div class="card__content">
             <div id='detail_inside'>
-          {/* <h2 className='detail_head'>Detail Event</h2> */}
           
           <h2 className='detail_dura'> Timing:<span style={{color:"white", textShadow:"none" }}>{state.duration}</span> </h2>
           <h2 className='detail_time'>Duration:<span style={{color:"white", textShadow:"none"}}> {state.timing}</span></h2>

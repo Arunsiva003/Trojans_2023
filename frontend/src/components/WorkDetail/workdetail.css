@@ -83,18 +83,18 @@ color: #ffffff;
 
     font-size: 30px;
     font-family: var(--title-font);
-    color: #fff6a9;
+    color: var(--desc-color);
 }
 .detail_time{
     
     font-size: 30px;
     font-family: var(--title-font);
     /* align-self: center; */
-    color: #fff6a9;
+    color: var(--desc-color);
 }
 /* */
 .detail_descp{
-    color: #fff6a9;
+    color: var(--desc-color);
     font-family: var(--title-font);
     font-size: 30px;
 }
@@ -113,7 +113,7 @@ color: #ffffff;
         align-items: flex-start;
         flex-direction: column;
         background-color: black;
-        width: 90%;
+        width: 95%;
         height:max-content;
         padding: 30px;
         
@@ -149,23 +149,22 @@ color: #ffffff;
     text-transform: uppercase;
     text-align: center;
         text-shadow: rgb(188, 19, 254) 2px 0px 0px, rgb(188, 19, 254) -2px 0px 0px, rgb(188, 19, 254) 0px 2px 0px, rgb(188, 19, 254) 0px -2px 0px, rgb(188, 19, 254) 1px 1px, rgb(188, 19, 254) -1px -1px 0px, rgb(188, 19, 254) 1px -1px 0px, rgb(188, 19, 254) -1px 1px 0px, rgb(188, 19, 254) 0px 0px 7px, rgb(188, 19, 254) 0px 0px 10px, rgb(188, 19, 254) 0px 0px 21px;
-    color: #fff6a9;
-    
+        
     }
     .detail_dura{
-
+        
+        color:var(--desc-color);
         font-size: 20px;
-        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-        color: #fff6a9;
+        
         font-family: var(--title-font);
+        
     }
-
+    
     .detail_time{
+        color:var(--desc-color);
         
         font-size: 20px;
         /* align-self: center; */
-        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-        color: #fff6a9;
         font-family: var(--title-font);
     }
     .detail_descp_point{
@@ -175,8 +174,8 @@ color: #ffffff;
         
     }
     .detail_descp{
-        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-        color: #fff6a9;
+     
+        color:var(--desc-color);
         /* width: 0%; */
         /* text-align:justify; */
         font-size: 20px;
