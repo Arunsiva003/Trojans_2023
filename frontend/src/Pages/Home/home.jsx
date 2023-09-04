@@ -58,8 +58,8 @@ export default function Home() {
       •	The capture moments should be in appropriate manner.
       •	Plagiarism is strictly prohibited`,
       coordinators:`
-      Roshika - 8667518384
-      Pavithra - 8056187228 
+      Roshika - 8667518384,
+      Pavithra - 8056187228, 
       Rithika - 7200420028`,
       timing:"1hrs",
       buttonText: "View More",
@@ -80,8 +80,8 @@ export default function Home() {
       •	Prizes will be awarded to the teams with the most outstanding marketing strategies and presentations.
       •	All participating teams will receive a certificate of participation.
       .`,
-      coordinators:`S Sameerul Hak 
-      Suriya .S - 7418928575
+      coordinators:`S Sameerul Hak - 9944012249,
+      Suriya .S - 7418928575,
       Sharvesh .R - 8072887693`,
       timing:"1hrs",
       buttonText: "View More",
@@ -102,8 +102,8 @@ export default function Home() {
       
       `,
       coordinators:`
-      B. Kishore - 9789822709
-      Evelyn Beatrice A - 9500191848
+      B. Kishore - 9789822709,
+      Evelyn Beatrice A - 9500191848,
       Hariharan - 8778370554`,
       timing:"1hrs",
       buttonText: "View More",
@@ -122,7 +122,9 @@ export default function Home() {
       •	Keep your content professional and relevant to the topic.
       •	Uniqueness of ideas, innovative approaches, or fresh perspectives in addressing the subject matter
       `,
-      coordinators:"Vinay Saran JJ,Amrize,Padmavarshini B",
+      coordinators:`Vinay Saran JJ - 8778357595,
+      J .K Amrize - 8015929273,
+      Padmavarshini B - 7010455884 `,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -276,7 +278,7 @@ export default function Home() {
         ●	MAP TOOL : BIND,HAVEN,SPLIT,ASCENT,ICEBOX,BREEZE.
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
-        coordinators:`VS Kanna `,
+        coordinators:`VS Kanna - 9677044486`,
         timing:"1hrs",
         buttonText: "View More",
       },
@@ -314,7 +316,7 @@ export default function Home() {
         ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
-        coordinators:`V S Kanna `,
+        coordinators:`V S Kanna - 9677044486`,
         timing:"1hrs",
         buttonText: "View More",
       }

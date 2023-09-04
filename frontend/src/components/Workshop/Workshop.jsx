@@ -23,7 +23,7 @@ function  Workshop() {
       •	Web performance and Security
       •	Q & A
 `,
-      coordinators: "Shalini S",
+      coordinators: "Shalini S - 6381703623",
       timing: "1hrs",
       buttonText: "View More",
     },
@@ -57,7 +57,9 @@ function  Workshop() {
                       6.1 Common network problems 
                       6.2 Network diagnostic tools (e.g., ping, trace-route) 
                       6.3 Advanced persistent threats (APTs) and mitigation strategies`,
-      coordinators: "SRINITHI.S,DEVISRI S ",
+      coordinators: `
+      SRINITHI.S - 7603807975,
+      DEVISRI S - 9384258137`,
       timing: "1hrs",
       buttonText: "View More",
     },
@@ -82,7 +84,7 @@ function  Workshop() {
       - Software Engineers seeking to diversify
       - Professionals interested in AI's industry applications
 `,
-      coordinators: "Madhan Kumar",
+      coordinators: "Madhan Kumar - 9655364633",
       timing: "1hrs",
       buttonText: "View More",
     },
@@ -108,7 +110,7 @@ function  Workshop() {
       •	Utilizing Firebase to persist chatbot conversations 
       •	Deploying your AI app securely with hidden API keys 
 `,
-      coordinators: " ARUN PRANAV A T",
+      coordinators: " ARUN PRANAV A T - 8838310004",
       timing: "1hrs",
       buttonText: "View More",
     },

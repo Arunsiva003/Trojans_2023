@@ -57,7 +57,7 @@ function Footer() {
                         title="Events"
                         links={[
                             {url: "/#events", name: "Technical"},
-                            {url: "/#events", name: "Non - Technical"},
+                            {url: "/#events", name: "Fun-Tech"},
                             {url: "/#events", name: "Gaming"},
                             {url: "/#events", name: "Workshops"},
                         ]}
