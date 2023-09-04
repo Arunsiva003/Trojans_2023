@@ -146,9 +146,9 @@ export default function Home() {
       `,
       coordinators:`
       	HARI PRASAD R - 7550160349,
-      	SARUMATHI - ,
-      	SHANMUGA PRIYA - , 
-      	SOWMIYA -`,
+      	SARUMATHI -  8098087730,
+      	SHANMUGA PRIYA - 8098087730, 
+      	SOWMIYA -8015442451`,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -176,9 +176,9 @@ export default function Home() {
       coordinators:`
       	VISHAL RK – 9956189750,  
       	ABHISHEK DAS - ,
-      	SUBITHA S - ,
-      	PRANAVI RETHIKA VS - , 
-      	SYED NADEEM G - ,
+      	SUBITHA S -  6381878958,
+      	PRANAVI RETHIKA VS -9150299658 , 
+      	SYED NADEEM G -8667609585 ,
 `,
       timing:"1hrs",
       buttonText: "View More",
@@ -211,7 +211,12 @@ export default function Home() {
       •	IF FOUND WITHIN 5 MINUTES (MINIMUM)-HARD.
       •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.
       `,
-      coordinators:"	B PAWAN KALYAN ,E DHARSHINI ,KAVIYASRI V ,KAVI T ,R S RAGHAVEE ",
+      coordinators:`	
+      B PAWAN KALYAN -  9345355391,
+      E DHARSHINI    -  8248378703,
+      KAVIYASRI V    -  9840239478,
+      KAVI T         -  9840239478,
+      R S RAGHAVEE   -  6369151535`,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -240,7 +245,11 @@ export default function Home() {
       •	THE CODE SHOULD BE COMPLETED WITHIN A STIPULATED LINES 
       •	THE TIME DURATION FOR THIS ROUND IS 15 MINUTES.        
       `,
-      coordinators:"R NAVEEN ,KANISHKA BHARATHI A ,ILAKKIYA S M ,KRISHNA G",
+      coordinators:`
+      R NAVEEN -  9566192553,
+      KANISHKA BHARATHI A - 9790944475, 
+      ILAKKIYA S M - 9342649717 
+      KRISHNA G - 6381044623`,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -267,24 +276,23 @@ export default function Home() {
         imageSrc: stop,
         duration:"10",
         description:`GENERAL RULES:
-        •	EACH TEAM SHOULD CONSISTS A MAXIMUM OF 3 MEMBERS.
-        •	THERE WILL BE 3 ROUNDS.
-        •	ALL THE 3 ROUNDS WILL BE TIMER BASED.
-        ROUND 1:
-        •	IT WILL BE A MCQ ROUND.
-        •	QUESTIONS WILL BE BASED ON PYTHON, C, C++, JAVA.
-        •	THE TIME DURATION FOR EACH QUESTION WILL BE 20 SECONDS.
-        ROUND 2:
-        •	IT WILL BE A MEME BASED MCQ ROUND.
-        •	QUESTIONS WILL BE BASED ON ALGORITHMS AND TECHNICAL TERMS.
-        •	THE TIME DURATION FOR ANSWERING THE QUIZ AFTER THE MEME IS DISPLAYED WILL BE 10 SECONDS.
-        ROUND 3:
-        •	IT WILL BE SPOT THE ERROR ROUND.
-        •	PARTICIPANTS NEED TO SPOT THE ERRORS IN THE GIVEN CODE AND NEED TO SAY THE NUMBER OF ERRORS.
-        •	PAPER AND PEN WILL BE PROVIDED FOR DEBUGGING.
-        •	EACH CODE WILL BE DISPLAYED FOR 40 SECONDS.
+        ●	Photos will be sent through the link given in the bio.
+        ●	Winners will be based on likes,polling or the judge's Decision.
+        ●	Only Single Entry is allowed
+        ●	Participants can either use their mobile phones or DSLR camera. 
+        ●	There is no theme to be followed.
+        ●	Only colour grading is allowed.
+        ●	A Registration fee of Rs.40 must be paid in order to participate in the contest.
+        ●	Take a screenshot of the payment featuring your full name,department,year,college name.
+          Once the Payment is done,Kindly fill out the google form provided in the bio of our page.
+        ●	Your photograph can be submitted through the registration google form.It must be original and contain no watermarks(VIOLATORS WILL BE BANNED PARTICIPATING IN THE EVENT)
+        ●	Make sure to attach the screenshot of the payment along with your submission in the google form.
+        ● The Link will be deactivated after the last Date of submission.
+        ●	The post that grabs the highest likes and favour of the judge will be selected as the winner.
+        ●	The first and second and Third-place winners will be notified through Whatsapp and Email. 
+        ●	Participation e-certificate will be provided to all the participants.
         `,
-        coordinators:"VISHAL RK ,	ABHISHEK DAS ,	SUBITHA S ,	PRANAVI RETHIKA VS ,	SYED NADEEM G ",
+        coordinators:" N.E Sitharth - 7305493313",
         timing:"1hrs",
         buttonText: "View More"
       },

@@ -25,7 +25,7 @@ function Workshop() {
 `,
       coordinators: "Shalini S",
       timing: "1hrs",
-      buttonText: "Continue Learning",
+      buttonText: "View More",
     },
     {
       eventname: "Advanced Networking Nexus",
@@ -59,7 +59,7 @@ function Workshop() {
                       6.3 Advanced persistent threats (APTs) and mitigation strategies`,
       coordinators: "SRINITHI.S,DEVISRI S ",
       timing: "1hrs",
-      buttonText: "Continue Learning",
+      buttonText: "View More",
     },
     {
       eventname: "Machine Learning and Deep Learning",
@@ -84,7 +84,7 @@ function Workshop() {
 `,
       coordinators: "Madhan Kumar",
       timing: "1hrs",
-      buttonText: "Continue Learning",
+      buttonText: "View More",
     },
     {
       eventname: "AI Integration with ChatGPT",
@@ -110,7 +110,7 @@ function Workshop() {
 `,
       coordinators: " ARUN PRANAV A T",
       timing: "1hrs",
-      buttonText: "Continue Learning",
+      buttonText: "View More",
     },
   ];
 
@@ -138,7 +138,7 @@ function Workshop() {
         </div>
           <div class="work_card__container">
             {workshopdata.map((event, index) => (
-              <article class="work_card__article work_card" key={index}>
+              <article class="work_card__article work_card__purple" key={index}>
                 <div class="work_card__scale-1"></div>
                 <div class="work_card__scale-2"></div>
 
