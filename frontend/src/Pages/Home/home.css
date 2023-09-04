@@ -25,7 +25,7 @@
 
 .homePage{
     color:white;
-    background-color: #101010;
+    background-color: rgba(0,0,0,0.5);
     /* background: linear-gradient(90deg, rgba(3,1,43,1) 0%, rgba(68,5,63,1) 58%, rgba(57,3,60,1) 100%); */
     /* overflow: hidden; */
 }
@@ -68,6 +68,7 @@
     letter-spacing: 25px;
     line-height: normal;
     position: absolute;
+    z-index:10;
 }
 p{
     text-align:justify;
@@ -76,6 +77,7 @@ p{
     border-top:2px solid var(--line-color);
     margin-inline:20px;
     width:85%;
+    margin-top: 5%;
 }
 
 .heroTrojans{
@@ -85,7 +87,7 @@ p{
     font-weight: 400;
     letter-spacing: 6.4px;
     line-height: normal;
-    width: 498px;
+    width: fit-content;
 }
 
 .heroDesc{
@@ -257,6 +259,10 @@ p{
     height: 80%;
 }
 
+.homeLogo {
+    z-index: -0;
+    opacity: 0.5;
+}
 
 @media screen and (max-width:1240px){
     

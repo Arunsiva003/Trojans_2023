@@ -34,6 +34,9 @@ import  Quiz from "../../images/Tech/QuizTopher.jpg"
 import Navbar from '../../components/Navbar/Navbar.jsx';
 //workshop images
 
+import Background from "../../components/Background/Background";
+
+
 export default function Home() {
 
   //  const navigate = useNavigate();
@@ -337,6 +340,7 @@ export default function Home() {
 
     <div className='homePage'>
       <Navbar/>
+    <Background/>
       <div className='intro'>
             <p className='trojanshead'>TROJANS</p> 
       
@@ -359,7 +363,6 @@ export default function Home() {
         
           <Scroller/>
         </div>
-
 
         <div className='homeAbout'>
           <div className='aboutHead'><div class="content">
