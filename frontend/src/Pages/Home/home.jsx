@@ -39,7 +39,7 @@ import Background from "../../components/Background/Background";
 
 export default function Home() {
 
-  //  const navigate = useNavigate();
+  
 
   const cit ="Chennai Institute of Technology (CIT Chennai) is an Industry Connected Institute, affiliated to Anna University and is a co-educational engineering college located at Kundrathur, Chennai, Tamil Nadu, India. It was established in 2010 and was established with an objective of providing quality technical education with adequate industrial exposure than any other college in Chennai."
   const trojans="Trojans is a National Level Technical Symposium organized by the department of Information Technology, Chennai Institute of Technology. Trojans emerged from the shadows on March 13th, 2022. Trojans aims to provide a platform for students to explore and exhibit their talents as well as learn about various technologies that persist in the IT industry. Our name is inspired from the historical trojan horse, which was a clever instrument used in the trojan war to turn the tides of the war. Our symposium, was also conceived by similar clever maneuvers and has now become a phenomenon of great significance and flair."
@@ -60,7 +60,10 @@ export default function Home() {
       •	 Reel must be within 1 min 
       •	The capture moments should be in appropriate manner.
       •	Plagiarism is strictly prohibited`,
-      coordinators:"S Sameerul Hak, Vinay Saran JJ, Krishna G, Roshika, Pavi, Rithika",
+      coordinators:`
+      Roshika - 8667518384,
+      Pavithra - 8056187228, 
+      Rithika - 7200420028`,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -68,19 +71,21 @@ export default function Home() {
       imageSrc: Craft,
       duration:"10",
       description:`Rules:
-      •	1.Group or individual participation allowed
-      •	2.Each group should consists of 2-3 members only 
-      •	3.The individual member have 2-3 minutes time for their presentation(timings may be change)
-      •	4.Groups have 5 minutes duration for their presentation(timings may be changes)
-      •	5.The topic will be given on the spot.
-      •	6.The participant should be present according to their topic 
-      •	7.Teams will be evaluated based on creativity, feasibility, clarity of presentation, 
-      •	and their way of marketing with the given topic.
-      •	8.The decision of the judging panel will be final and binding.
-      •	9.Prizes will be awarded to the teams with the most outstanding marketing strategies and presentations.
-      •	10.All participating teams will receive a certificate of participation.
+      •	Group or individual participation allowed
+      •	Each group should consists of 2-3 members only.
+      •	The individual member have 2-3 minutes time for their presentation(timings may be change).
+      •	Groups have 5 minutes duration for their presentation(timings may be changes)
+      •	The topic will be given on the spot.
+      •	The participant should be present according to their topic 
+      •	Teams will be evaluated based on creativity, feasibility, clarity of presentation, 
+      	and their way of marketing with the given topic.
+      •	The decision of the judging panel will be final and binding.
+      •	Prizes will be awarded to the teams with the most outstanding marketing strategies and presentations.
+      •	All participating teams will receive a certificate of participation.
       .`,
-      coordinators:"S Sameerul Hak ,Suriya , Sharvesh",
+      coordinators:`S Sameerul Hak - 9944012249,
+      Suriya .S - 7418928575,
+      Sharvesh .R - 8072887693`,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -99,7 +104,10 @@ export default function Home() {
       •	Participants are requested to respond within the designated time limit .
       
       `,
-      coordinators:"B. Kishore,Evelyn Beatrice A,Hariharan",
+      coordinators:`
+      B. Kishore - 9789822709,
+      Evelyn Beatrice A - 9500191848,
+      Hariharan - 8778370554`,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -117,7 +125,9 @@ export default function Home() {
       •	Keep your content professional and relevant to the topic.
       •	Uniqueness of ideas, innovative approaches, or fresh perspectives in addressing the subject matter
       `,
-      coordinators:"Vinay Saran JJ,Amrize,Padmavarshini B",
+      coordinators:`Vinay Saran JJ - 8778357595,
+      J .K Amrize - 8015929273,
+      Padmavarshini B - 7010455884 `,
       timing:"1hrs",
       buttonText: "View More",
     },
@@ -271,7 +281,7 @@ export default function Home() {
         ●	MAP TOOL : BIND,HAVEN,SPLIT,ASCENT,ICEBOX,BREEZE.
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
-        coordinators:`VS Kanna `,
+        coordinators:`VS Kanna - 9677044486`,
         timing:"1hrs",
         buttonText: "View More",
       },
@@ -309,7 +319,7 @@ export default function Home() {
         ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
-        coordinators:`V S Kanna `,
+        coordinators:`V S Kanna - 9677044486`,
         timing:"1hrs",
         buttonText: "View More",
       }
