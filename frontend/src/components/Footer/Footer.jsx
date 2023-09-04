@@ -2,6 +2,8 @@ import React from "react";
 import CIT from "../../images/Trojans/cit_white_logo.webp"
 import Trojans from "../../images/Trojans/trojans_logo.webp"
 
+// import './footer.css'
+
 import {FooterContainer} from "./Footer.styles";
 
 const FooterlLinksContainer = ({title, links}) => {
@@ -115,6 +117,7 @@ function Footer() {
             </div>
             <div className="copyright">
                 <p>COPYRIGHT © TROJANS </p>
+                <p className="created">Crafted and Cultivated by the <span className="foot">Trojans Web Development Crew</span></p>
             </div>
         </FooterContainer>
     );

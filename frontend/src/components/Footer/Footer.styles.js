@@ -141,6 +141,17 @@ export const FooterContainer = styled.section`
 
 	.copyright {
 		padding: 1rem 0;
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		text-align:center;
+	}
+	.created{
+		text-align:center;
+	}
+	.foot{
+		color:rgba(227, 3, 178, 0.9);
 	}
 
 	@media (max-width: 900px) {

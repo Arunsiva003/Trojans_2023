@@ -176,6 +176,7 @@ p{
     line-height: 180%;
     letter-spacing: 1px;
     font-family: var(--title-font);
+    transition: ease-in 1.5s;
 }
 .rightAbout{
     display:flex;
@@ -285,7 +286,6 @@ p{
 
 .heroTrojans{
     color: #dbdbdb;
-    /* font-family: "Assassin$-Regular", Helvetica; */
     font-size: 34px;
     font-weight: 400;
     letter-spacing: 3.2px;
