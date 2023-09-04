@@ -145,8 +145,11 @@ export const FooterContainer = styled.section`
 		flex-direction:column;
 		justify-content:center;
 		align-items:center;
+		text-align:center;
 	}
-
+	.created{
+		text-align:center;
+	}
 	.foot{
 		color:rgba(227, 3, 178, 0.9);
 	}

@@ -117,7 +117,7 @@ function Footer() {
             </div>
             <div className="copyright">
                 <p>COPYRIGHT © TROJANS </p>
-                <p>Crafted and Cultivated by the <span className="foot">Trojans Web Development Crew</span></p>
+                <p className="created">Crafted and Cultivated by the <span className="foot">Trojans Web Development Crew</span></p>
             </div>
         </FooterContainer>
     );
