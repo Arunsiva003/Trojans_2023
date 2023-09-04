@@ -56,7 +56,7 @@ function Navbar() {
             <a href="#events" className="nvg-opt" onClick={closeMenu}>Events</a>
           </li>
           <li className="nav-lst">
-          <a href="#events" className="nvg-opt" onClick={closeMenu}>Online Events</a>
+          <a href="#events" className="nvg-opt" onClick={closeMenu}>Gaming</a>
 
           </li>
           <li className="nav-lst">

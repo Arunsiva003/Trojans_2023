@@ -369,7 +369,7 @@ export default function Home() {
               </div>
               <div className='firstAbout2'>
                   <div className='leftAbout'>  
-                    <p>{trojans}</p>
+                    <p id="pt">{trojans}</p>
                   </div>
                   <div className='rightAbout' >
                     <img src={Logo2} alt="cit" className='logo2'/>
@@ -399,7 +399,7 @@ export default function Home() {
             </div>
             <div className="eventBox" onClick={online}>
               <img src={event3} alt="img" className="eventImage" />
-              Online Events
+              Gaming
             </div>
             <div className="eventBox" onClick={workshop} >
               <img src={event4} alt="img" className="eventImage" />

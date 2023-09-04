@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import {FaConnectdevelop,FaDatabase, FaWifi} from 'react-icons/fa';
 import { GiRobotAntennas } from 'react-icons/gi';
 
-function Workshop() {
+function  Workshop() {
   const navigate = useNavigate();
 
   let workshopdata = [
