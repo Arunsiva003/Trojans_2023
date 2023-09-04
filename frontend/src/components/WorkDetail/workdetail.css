@@ -83,18 +83,18 @@ color: #ffffff;
 
     font-size: 30px;
     font-family: var(--title-font);
-    color: #fff6a9;
+    color: var(--desc-color);
 }
 .detail_time{
     
     font-size: 30px;
     font-family: var(--title-font);
     /* align-self: center; */
-    color: #fff6a9;
+    color: var(--desc-color);
 }
 /* */
 .detail_descp{
-    color: #fff6a9;
+    color: var(--desc-color);
     font-family: var(--title-font);
     font-size: 30px;
 }

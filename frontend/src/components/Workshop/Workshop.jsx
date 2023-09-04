@@ -115,7 +115,6 @@ function  Workshop() {
   ];
 
   const shareData = (event) => {
-    console.log("event name: ", event.eventname);
     navigate("/workdetail", {
       state: {
         eventname: event.eventname || "",
@@ -150,7 +149,7 @@ function  Workshop() {
                 </div>
                 <div class="work_card__data">
                   
-                  <h2 className="work_card__title"><span className="work_tags">{"<"}</span>{event.eventname}<span className="work_tags">{"/>"}</span></h2>
+                  <h2 className="work_card__title">{event.eventname}</h2>
                   <p className="work_card_description">{event.eventdescription}</p>
                   <a
                     
