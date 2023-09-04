@@ -149,6 +149,10 @@ a {
     --hue-1: 300;
     --hue-2: 30;
 }
+.work_card__purple {
+    --hue-1: 300;
+    background-color: hsl(var(--hue-1), 100%, 50%);
+}
 
 .work_card__green {
     --hue-1: 180;
