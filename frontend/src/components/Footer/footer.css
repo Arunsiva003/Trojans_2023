@@ -79,6 +79,13 @@ margin-top: 80px;
     width: 20%;
     /* background-color:red; */
 }
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width:784px) {
     .footer_container{
         margin-top: 80px;

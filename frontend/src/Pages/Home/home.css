@@ -176,6 +176,7 @@ p{
     line-height: 180%;
     letter-spacing: 1px;
     font-family: var(--title-font);
+    transition: ease-in 1.5s;
 }
 .rightAbout{
     display:flex;
