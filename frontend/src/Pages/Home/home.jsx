@@ -48,7 +48,7 @@ export default function Home() {
   const Nontechdatas = [
     {eventname:"One-Shot",
       imageSrc: shot,
-      duration:"10",
+      duration:"All-Day",
       description:`A dynamic campus tapestry unfolds: laughter in the quad, focused minds in libraries, and diverse unity over shared meals.
       Athletes' determination, artists' passion, and captivating performances reveal a vibrant Trojan journey.
       In one frame, emotions and time unite, chronicling a pulsating college narrative.
@@ -64,12 +64,12 @@ export default function Home() {
       Roshika - 8667518384,
       Pavithra - 8056187228, 
       Rithika - 7200420028`,
-      timing:"1hrs",
+      timing:"10:30am",
       buttonText: "View More",
     },
     {eventname:"Crafter Tactics",
       imageSrc: Craft,
-      duration:"10",
+      duration:"1 hr",
       description:`Rules:
       •	Group or individual participation allowed
       •	Each group should consists of 2-3 members only.
@@ -86,12 +86,12 @@ export default function Home() {
       coordinators:`S Sameerul Hak - 9944012249,
       Suriya .S - 7418928575,
       Sharvesh .R - 8072887693`,
-      timing:"1hrs",
+      timing:"11:00am - 12:00pm",
       buttonText: "View More",
     },
     {eventname:"Brainaholic",
       imageSrc: brain,
-      duration:"10",
+      duration:"1 hr",
       description:`
       Dive into the world of brain teasers and trickers by participating in Brainaholic! Test your knowledge and revel in the joy of face-to-face competition. Join us for a quiz extravanganza.
       
@@ -108,12 +108,12 @@ export default function Home() {
       B. Kishore - 9789822709,
       Evelyn Beatrice A - 9500191848,
       Hariharan - 8778370554`,
-      timing:"1hrs",
+      timing:"1pm - 2pm",
       buttonText: "View More",
     },
     {eventname:"ImpactX",
       imageSrc: impact,
-      duration:"10",
+      duration:"All-Day",
       description:`Description:
       Bring life to your ideas through this ecstatic event ImpactX - Unfold brilliance and elevate your ideas through a paper presentation event.
       Rules:
@@ -128,7 +128,7 @@ export default function Home() {
       coordinators:`Vinay Saran JJ - 8778357595,
       J .K Amrize - 8015929273,
       Padmavarshini B - 7010455884 `,
-      timing:"1hrs",
+      timing:"10:30am",
       buttonText: "View More",
     },
 
@@ -136,7 +136,7 @@ export default function Home() {
   const Techdata=[
     {eventname:"Coders Chemistry",
       imageSrc: Code,
-      duration:"10",
+      duration:" 1 hr",
       description:`GENERAL RULES:
       ●	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
       ●	THERE WILL BE 3 ROUNDS.
@@ -162,12 +162,12 @@ export default function Home() {
       	SARUMATHI -  8098087730,
       	SHANMUGA PRIYA - 8098087730, 
       	SOWMIYA -8015442451`,
-      timing:"1hrs",
+      timing:"10:30am - 11:30am",
       buttonText: "View More",
     },
     {eventname:"Quiztopher",
       imageSrc: Quiz,
-      duration:"10",
+      duration:"1 hr",
       description:`GENERAL RULES:
       •	EACH TEAM SHOULD CONSISTS A MAXIMUM OF 3 MEMBERS.
       •	THERE WILL BE 3 ROUNDS.
@@ -188,17 +188,16 @@ export default function Home() {
       `,
       coordinators:`
       	VISHAL RK – 9956189750,  
-      	ABHISHEK DAS - ,
       	SUBITHA S -  6381878958,
       	PRANAVI RETHIKA VS -9150299658 , 
       	SYED NADEEM G -8667609585 ,
 `,
-      timing:"1hrs",
+      timing:"11:30am - 12:30pm",
       buttonText: "View More",
     },
     {eventname:"Code Beats",
       imageSrc: CodeBeat,
-      duration:"10",
+      duration:"1 hr",
       description:`GENERAL RULES:
       •	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
       •	THERE WILL BE 3 ROUNDS.
@@ -230,12 +229,12 @@ export default function Home() {
       KAVIYASRI V    -  9840239478,
       KAVI T         -  9840239478,
       R S RAGHAVEE   -  6369151535`,
-      timing:"1hrs",
+      timing:"1:15pm - 2:15pm",
       buttonText: "View More",
     },
     {eventname:"Beyond Your Visuals",
       imageSrc: Beyond,
-      duration:"10",
+      duration:"1 hr",
       description:`GENERAL RULES:
       •	EACH TEAM SHOULD CONSIST OF 1 MEMBERS.
       •	THERE WILL BE 3 ROUNDS.
@@ -263,7 +262,7 @@ export default function Home() {
       KANISHKA BHARATHI A - 9790944475, 
       ILAKKIYA S M - 9342649717 
       KRISHNA G - 6381044623`,
-      timing:"1hrs",
+      timing:"12:30pm - 1:30pm",
       buttonText: "View More",
     },
 
@@ -272,7 +271,7 @@ export default function Home() {
       const OnlineDatas = [
       {eventname:"Valorant(Online)",
         imageSrc: valo,
-        duration:"10",
+        duration:"4 hrs",
         description:`GENERAL RULES:
         ●	Team Head(Captain) must register with a unique Team Name,5 members and no substitutes.
         ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
@@ -282,7 +281,7 @@ export default function Home() {
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
         coordinators:`VS Kanna - 9677044486`,
-        timing:"1hrs",
+        timing:"6:00pm",
         buttonText: "View More",
       },
       {eventname:"Shutter Stop(Online)",
@@ -306,12 +305,12 @@ export default function Home() {
         ●	Participation e-certificate will be provided to all the participants.
         `,
         coordinators:" N.E Sitharth - 7305493313",
-        timing:"1hrs",
+        timing:"",
         buttonText: "View More"
       },
       {eventname:"BGMI (Offline)",
         imageSrc: pubg,
-        duration:"10",
+        duration:"3 hrs",
         description:`GENERAL RULES:
          ●	Team Head(Captain) must register with a unique Team Name,4 members and no substitutes.
         ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
@@ -320,7 +319,7 @@ export default function Home() {
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
         coordinators:`V S Kanna - 9677044486`,
-        timing:"1hrs",
+        timing:"10:00am - 1:00pm",
         buttonText: "View More",
       }
     ];

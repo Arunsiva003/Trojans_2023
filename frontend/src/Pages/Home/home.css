@@ -75,8 +75,8 @@ p{
 }
 .line{
     border-top:2px solid var(--line-color);
-    margin-inline:20px;
-    width:85%;
+    /* margin-inline:10px; */
+    width:95%;
     margin-top: 5%;
 }
 
