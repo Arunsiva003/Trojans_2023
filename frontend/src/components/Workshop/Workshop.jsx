@@ -12,7 +12,7 @@ function  Workshop() {
       eventname: "Advanced Web Development",
       iconsrc:<FaDatabase className="work_card__icon"/>,
       // imageSrc: p5,
-      duration: "10",
+      duration: "1:30 hrs ",
 
       description: 
       `Topics :
@@ -24,14 +24,14 @@ function  Workshop() {
       •	Q & A
 `,
       coordinators: "Shalini S - 6381703623",
-      timing: "1hrs",
+      timing: "10:30am - 12:00pm",
       buttonText: "View More",
     },
     {
       eventname: "Advanced Networking Nexus",
       // imageSrc: p5,
       iconsrc:<FaWifi className="work_card__icon"/>,
-      duration: "10",
+      duration: "1:30 hrs",
       description: `  1)Introduction To Networking
                       1.1 what is networking & how it began
                       1.2 Networking Topologies
@@ -60,13 +60,13 @@ function  Workshop() {
       coordinators: `
       SRINITHI.S - 7603807975,
       DEVISRI S - 9384258137`,
-      timing: "1hrs",
+      timing: "10:00am - 12:00pm",
       buttonText: "View More",
     },
     {
       eventname: "Machine Learning and Deep Learning",
       iconsrc:<FaConnectdevelop className="work_card__icon"/>,
-      duration: "10",
+      duration: "1:30 hrs",
       description: `*Title: Data Science, Machine Learning, and Deep Learning Workshop*
       *Description:*
       Immerse yourself in the world of Data Science, Machine Learning, and Deep Learning. This workshop offers a comprehensive exploration of these cutting-edge fields, catering to beginners and intermediate practitioners. Led by industry experts, you'll gain hands-on experience, theoretical insights, and ethical perspectives, all vital for leveraging data-driven decision-making.
@@ -85,13 +85,13 @@ function  Workshop() {
       - Professionals interested in AI's industry applications
 `,
       coordinators: "Madhan Kumar - 9655364633",
-      timing: "1hrs",
+      timing: "12:30pm - 2:00pm",
       buttonText: "View More",
     },
     {
       eventname: "AI Integration with ChatGPT",
       iconsrc: <GiRobotAntennas className="work_card__icon"/>,
-      duration: "10",
+      duration: "1:30 hrs",
       description: `You can level up your web development skills by harnessing the power of AI.
       In this course, you will build three projects utilizing the OpenAI API and explore the capabilities of ChatGPT, 
       Dall-E, and the revolutionary GPT-4 model. Get ready to build a movie pitch generator, an ask-me-anything 
@@ -111,7 +111,7 @@ function  Workshop() {
       •	Deploying your AI app securely with hidden API keys 
 `,
       coordinators: " ARUN PRANAV A T - 8838310004",
-      timing: "1hrs",
+      timing: "12:30pm -2:00pm",
       buttonText: "View More",
     },
   ];

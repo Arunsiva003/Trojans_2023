@@ -286,7 +286,7 @@ export default function Home() {
       },
       {eventname:"Shutter Stop(Online)",
         imageSrc: stop,
-        duration:"10",
+        duration:"On-Going",
         description:`GENERAL RULES:
         ●	Photos will be sent through the link given in the bio.
         ●	Winners will be based on likes,polling or the judge's Decision.
@@ -303,9 +303,10 @@ export default function Home() {
         ●	The post that grabs the highest likes and favour of the judge will be selected as the winner.
         ●	The first and second and Third-place winners will be notified through Whatsapp and Email. 
         ●	Participation e-certificate will be provided to all the participants.
+        ●	Result will be announced on the day of event.
         `,
         coordinators:" N.E Sitharth - 7305493313",
-        timing:"",
+        timing:"Till Sept-15",
         buttonText: "View More"
       },
       {eventname:"BGMI (Offline)",
