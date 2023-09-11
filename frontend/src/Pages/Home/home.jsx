@@ -177,17 +177,18 @@ export default function Home() {
       •	QUESTIONS WILL BE BASED ON PYTHON, C, C++, JAVA.
       •	THE TIME DURATION FOR EACH QUESTION WILL BE 20 SECONDS.
       ROUND 2:
-      •	IT WILL BE A MEME BASED MCQ ROUND.
-      •	QUESTIONS WILL BE BASED ON ALGORITHMS AND TECHNICAL TERMS.
-      •	THE TIME DURATION FOR ANSWERING THE QUIZ AFTER THE MEME IS DISPLAYED WILL BE 10 SECONDS.
+      •	IT WILL BE A MEME BASED ROUND.
+      •	MEMES WILL BE BASED ON ALGORITHMS AND TECHNICAL TERMS.
+      •	THE TIME DURATION FOR GUESSING THE MEME WILL BE 15 SECONDS.
+      •	MEMES WILL BE DISPLAYED IN THE FORM OF PPT
       ROUND 3:
       •	IT WILL BE SPOT THE ERROR ROUND.
       •	PARTICIPANTS NEED TO SPOT THE ERRORS IN THE GIVEN CODE AND NEED TO SAY THE NUMBER OF ERRORS.
       •	PAPER AND PEN WILL BE PROVIDED FOR DEBUGGING.
-      •	EACH CODE WILL BE DISPLAYED FOR 40 SECONDS.
+      •	EACH CODE WILL BE DISPLAYED FOR 30 SECONDS.
       `,
       coordinators:`
-      	VISHAL RK – 9956189750,  
+      	VISHAL RK – 9566189750,  
       	SUBITHA S -  6381878958,
       	PRANAVI RETHIKA VS -9150299658 , 
       	SYED NADEEM G -8667609585 ,
@@ -277,7 +278,7 @@ export default function Home() {
         ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
         ●	Event is conducted in Online mode.
         ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
-        ●	MAP TOOL : BIND,HAVEN,SPLIT,ASCENT,ICEBOX,BREEZE.
+        ●	MAP TOOL: BIND,HAVEN,SPLIT,ASCENT,ICEBOX,BREEZE.
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
         coordinators:`VS Kanna - 9677044486`,
