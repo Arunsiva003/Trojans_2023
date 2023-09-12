@@ -16,6 +16,7 @@ timing:event.timing,
 } });
   }
   return (
+
         <div className='container_event'>
       {/* <h1 className='heading_event'>{eventName}</h1> */}
         <div class="content">

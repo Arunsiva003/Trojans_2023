@@ -21,7 +21,7 @@ function DetailEvent() {
           <h2 className='h2'>{name}</h2>
           <h2 className='h2'>{name}</h2>
         </div></div>
-        <div className='first_1'><img onClick={gotoevent} src={back} className='goback'/></div>
+        <div className='first_1' onClick={gotoevent}><img onClick={gotoevent} src={back} className='goback'/></div>
        </div>
         <div class="card">
             <div class="card__content">

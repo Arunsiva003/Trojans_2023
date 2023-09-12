@@ -72,7 +72,9 @@
 .first_1 {
   align-self: flex-start;
 
-  margin-bottom: 20px; /* Add some spacing between first_1 and first_2 */
+  margin-bottom: 20px;
+  /* background-color:green; */
+   /* Add some spacing between first_1 and first_2 */
 }
 
 .first_2 {
@@ -81,6 +83,9 @@
 
 
 .goback {
+  z-index: 9999;
+  height: 100%;
+  /* background-color: red; */
   /* align-self: flex-start; */
 }
 @media screen and (max-width:1024px) {

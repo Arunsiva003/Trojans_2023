@@ -66,7 +66,6 @@ function Footer() {
                         title="About"
                         links={[
                             {url: "/#trojans", name: "Trojans"},
-                            {url: "/", name: "Department"},
                             {url: "/#cit", name: "College"},
                         ]}
                     />
@@ -96,7 +95,7 @@ function Footer() {
                         ]}
                     />
 
-                    <FooterlLinksContainer
+                    {/* <FooterlLinksContainer
                         title="Guidelines"
                         links={[
                             {
@@ -104,7 +103,7 @@ function Footer() {
                                 name: "Terms and Conditions",
                             },
                         ]}
-                    />
+                    /> */}
                 </div>
                 <div className="footer-logo-container">
                     {/* <div>

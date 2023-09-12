@@ -3,6 +3,7 @@ import './sponsors.css';
 import co1 from "../../images/sponsors/co1.png";
 import co2 from "../../images/sponsors/co2.png";
 import title from "../../images/sponsors/title.png"
+
 // import myImage from '../../images/Trojans/trojansLogo.png';
 
 function Sponsors() {
@@ -46,7 +47,6 @@ function Sponsors() {
 
   return (
     <div className="sponsors_body">
-      
       <div class="content">
           <h2 className='h2'>Title-Sponsors</h2>
           <h2 className='h2'>Title-Sponsors</h2>

@@ -127,7 +127,7 @@ export default function Home() {
       `,
       coordinators:`Vinay Saran JJ - 8778357595,
       J .K Amrize - 8015929273,
-      Padmavarshini B - 7010455884 `,
+      Padmavarshini B - 7010455844 `,
       timing:"10:30am",
       buttonText: "View More",
     },
@@ -136,7 +136,7 @@ export default function Home() {
   const Techdata=[
     {eventname:"Coders Chemistry",
       imageSrc: Code,
-      duration:" 1 hr",
+      duration:" 10:30am - 11:30am",
       description:`GENERAL RULES:
       ●	EACH TEAM SHOULD CONSIST OF 2 MEMBERS.
       ●	THERE WILL BE 3 ROUNDS.
@@ -162,7 +162,7 @@ export default function Home() {
       	SARUMATHI -  8098087730,
       	SHANMUGA PRIYA - 8098087730, 
       	SOWMIYA -8015442451`,
-      timing:"10:30am - 11:30am",
+      timing:"1 hr",
       buttonText: "View More",
     },
     {eventname:"Quiztopher",
@@ -338,7 +338,7 @@ export default function Home() {
     navigate('/events/FunTech', { state: { eventData: Nontechdatas } });
   }
   const online = () => {
-    navigate('/events/Online', { state: { eventData: OnlineDatas } });
+    navigate('/events/Gaming', { state: { eventData: OnlineDatas } });
   }
   
   

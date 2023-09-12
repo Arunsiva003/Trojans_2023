@@ -4,12 +4,13 @@ import { useNavigate } from "react-router-dom";
 import {FaConnectdevelop,FaDatabase, FaWifi} from 'react-icons/fa';
 import { GiRobotAntennas } from 'react-icons/gi';
 
+
 function  Workshop() {
   const navigate = useNavigate();
 
   let workshopdata = [
     {
-      eventname: "Advanced Web Development",
+      eventname: "Fullstack Development",
       iconsrc:<FaDatabase className="work_card__icon"/>,
       // imageSrc: p5,
       duration: "1:30 hrs ",
@@ -28,7 +29,7 @@ function  Workshop() {
       buttonText: "View More",
     },
     {
-      eventname: "Advanced Networking Nexus",
+      eventname: "Advanced Networking ",
       // imageSrc: p5,
       iconsrc:<FaWifi className="work_card__icon"/>,
       duration: "1:30 hrs",
@@ -131,6 +132,7 @@ function  Workshop() {
 
   return (
     <div>
+    
       <div class="work_back">
         <div class="work_cont">
         <div class="content">
