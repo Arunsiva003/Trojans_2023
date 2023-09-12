@@ -60,7 +60,7 @@ export default function Contactus(){
           <h2 className='h2'>Feedback</h2>
         </div>
                         <p className="touch2"></p>
-                        <form action="https://formspree.io/f/mnqkpogd"  method="POST" className="form_contactus">
+                        <form action="https://formspree.io/f/xeqbzjyv"  method="POST" className="form_contactus">
                             <input type="text" name="name" required placeholder="Your Name"/>
                             <input type="text" name="email" required placeholder="Email ID"/>
                             <input type="text" name="message" required placeholder="Message"/>

@@ -190,8 +190,8 @@ export default function Home() {
       coordinators:`
       	VISHAL RK – 9566189750,  
       	SUBITHA S -  6381878958,
-      	PRANAVI RETHIKA VS -9150299658 , 
-      	SYED NADEEM G -8667609585 ,
+      	PRANAVI RETHIKA VS - 9150299658 , 
+      	SYED NADEEM G - 8667609585 ,
 `,
       timing:"11:30am - 12:30pm",
       buttonText: "View More",
@@ -351,7 +351,7 @@ export default function Home() {
 
     <div className='homePage'>
       <Navbar/>
-    <Background/>
+      <Background/>
       <div className='intro'>
             <p className='trojanshead'>TROJANS</p> 
       

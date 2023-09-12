@@ -1,6 +1,6 @@
 import React from "react";
 import CIT from "../../images/Trojans/cit_white_logo.webp"
-import Trojans from "../../images/Trojans/trojans_logo.webp"
+import Trojans from "../../images/Trojans/website logo.png"
 
 // import './footer.css'
 
