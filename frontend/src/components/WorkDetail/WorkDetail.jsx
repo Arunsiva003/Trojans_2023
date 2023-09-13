@@ -29,8 +29,8 @@ function WorkDetail() {
       <div className='detail_cont'>
         <div className='detail_inside'>
           <h2 className='detail_head'>{state.eventname}</h2>
-          <h2 className='detail_dura'>Timing: <span style={{color:"white", textShadow:"none"}}>{state.duration}</span> </h2>
-          <h2 className='detail_time'>Duration:<span style={{color:"white", textShadow:"none"}}> {state.timing}</span></h2>
+          <h2 className='detail_dura'>Timing: <span style={{color:"white", textShadow:"none"}}>{state.timing}</span> </h2>
+          <h2 className='detail_time'>Duration:<span style={{color:"white", textShadow:"none"}}> {state.duration}</span></h2>
           <div>
             <h2 className='detail_descp'>Event description:</h2>
             {/* Map through the description points and render each as a separate <p> element */}

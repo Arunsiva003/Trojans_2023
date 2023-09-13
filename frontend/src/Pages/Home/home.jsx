@@ -282,7 +282,7 @@ export default function Home() {
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
         coordinators:`VS Kanna - 9677044486`,
-        timing:"6:00pm",
+        timing:" Sept 19 6:00pm",
         buttonText: "View More",
       },
       {eventname:"Shutter Stop(Online)",

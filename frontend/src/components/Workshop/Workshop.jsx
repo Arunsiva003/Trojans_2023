@@ -13,8 +13,8 @@ function  Workshop() {
       eventname: "Fullstack Development",
       iconsrc:<FaDatabase className="work_card__icon"/>,
       // imageSrc: p5,
-      duration: "1:30 hrs ",
-
+      duration: "1:30 hrs",
+      timing: "10:30am - 12:00pm",
       description: 
       `Topics :
       •	Modern HTML and CSS
@@ -24,8 +24,11 @@ function  Workshop() {
       •	Web performance and Security
       •	Q & A
 `,
-      coordinators: "Shalini S - 6381703623",
-      timing: "10:30am - 12:00pm",
+      coordinators: `
+      Shalini S - 6381703623,
+      Samyuktha  - 7358425326
+      `,
+      
       buttonText: "View More",
     },
     {
