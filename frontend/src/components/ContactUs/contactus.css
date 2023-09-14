@@ -173,6 +173,7 @@ font-family: 'Noto Serif', serif;
   --_p: 0px;
   outline-color: var(--color);
   outline-offset: .05em;
+  cursor: pointer;
 }
 
 .button-89:active {

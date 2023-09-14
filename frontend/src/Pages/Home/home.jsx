@@ -84,8 +84,8 @@ export default function Home() {
       •	All participating teams will receive a certificate of participation.
       .`,
       coordinators:`S Sameerul Hak - 9944012249,
-      Suriya .S - 7418928575,
-      Sharvesh .R - 8072887693`,
+      Surya .R - 8072887693,
+      Sharvesh .S - 7418928575`,
       timing:"11:00am - 12:00pm",
       buttonText: "View More",
     },

@@ -21,22 +21,24 @@ function DetailEvent() {
           <h2 className='h2'>{name}</h2>
           <h2 className='h2'>{name}</h2>
         </div></div>
-        <div className='first_1' onClick={gotoevent}><img onClick={gotoevent} src={back} className='goback'/></div>
+        <div className='first_1' onClick={gotoevent}><img onClick={gotoevent} src={back} alt="" className='goback'/></div>
        </div>
         <div class="card">
             <div class="card__content">
             <div id='detail_inside'>
           
-          <h2 className='detail_dura'> Timing:<span style={{color:"white", textShadow:"none" }}>{state.duration}</span> </h2>
-          <h2 className='detail_time'>Duration:<span style={{color:"white", textShadow:"none"}}> {state.timing}</span></h2>
+          <h2 className='detail_dura'> Timing:<span style={{color:"white", textShadow:"none" }}>{state.timing}</span> </h2>
+          <h2 className='detail_time'>Duration:<span style={{color:"white", textShadow:"none"}}> {state.duration}</span></h2>
           <div>
             <h2 className='detail_descp'>Event description:</h2>
             {/* Map through the description points and render each as a separate <p> element */}
             {descriptionPoints.map((point, index) => (
+              
               <h3 key={index} className='detail_descp_point'>{point}</h3>
             ))}
           </div>
 
+          {name==="ImpactX" ? <a href="https://forms.gle/MWYdvgVVnizrerkY8" target="_blank"><button className='button-89'>Submit your PPT</button></a> : ""}
 
           <h2 className='detail_time'>Coordinators:</h2>
           <div className='coordinatorsList'>
