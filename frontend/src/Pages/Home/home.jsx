@@ -275,7 +275,6 @@ export default function Home() {
         duration:"4 hrs",
         description:`GENERAL RULES:
         ●	Team Head(Captain) must register with a unique Team Name,5 members and no substitutes.
-        ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
         ●	Event is conducted in Online mode.
         ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
         ●	MAP TOOL: BIND,HAVEN,SPLIT,ASCENT,ICEBOX,BREEZE.
@@ -314,8 +313,7 @@ export default function Home() {
         imageSrc: pubg,
         duration:"3 hrs",
         description:`GENERAL RULES:
-         ●	Team Head(Captain) must register with a unique Team Name,4 members and no substitutes.
-        ●	Team must be ready with Entry Fee Rs.150/ Team to participate on the day of Event.
+        ●	Team Head(Captain) must register with a unique Team Name,4 members and no substitutes.
         ●	Event is conducted in Offline mode.
         ●	Interaction among the Players and Hacking would lead to immediate disqualification of the Team. 
         ●	Tournament Admin will make decision based upon Regional latency.
