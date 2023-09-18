@@ -321,7 +321,7 @@ export default function Home() {
         ●	Tournament Admin will make decision based upon Regional latency.
         `,
         coordinators:`V S Kanna - 9677044486`,
-        timing:"10:00am - 1:00pm",
+        timing:"10:30am - 1:30pm",
         buttonText: "View More",
       }
     ];

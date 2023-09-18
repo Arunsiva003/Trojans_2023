@@ -64,7 +64,7 @@ function  Workshop() {
       coordinators: `
       SRINITHI.S - 7603807975,
       DEVISRI S - 9384258137`,
-      timing: "10:00am - 12:00pm",
+      timing: "10:30am - 12:00pm",
       buttonText: "View More",
     },
     {
@@ -96,25 +96,18 @@ function  Workshop() {
       eventname: "AI Integration with ChatGPT",
       iconsrc: <GiRobotAntennas className="work_card__icon"/>,
       duration: "1:30 hrs",
-      description: `You can level up your web development skills by harnessing the power of AI.
-      In this course, you will build three projects utilizing the OpenAI API and explore the capabilities of ChatGPT, 
-      Dall-E, and the revolutionary GPT-4 model. Get ready to build a movie pitch generator, an ask-me-anything 
-      chatbot, and a fine-tuned bot trained on your very own dataset. Let's delve into what you'll learn in this course: 
-      •	Building fetch requests for the OpenAI API 
-      •	Exploring OpenAI's models and tools 
-      •	Mastering the Create Completions endpoint 
-      •	Harnessing the power of prompt engineering 
-      •	Unleashing the 'zero shot' and 'few shot' approaches 
-      •	Understanding the temperature property for creative output 
-      •	Utilizing the Create Image endpoint with Dall-E 
-      •	Building chatbots with ChatGPT 
-      •	Exploring chatbot-specific prompt syntax 
-      •	Navigating the Create Chat Completions endpoint 
-      •	Fine-tuning your chatbot for personalized responses 
-      •	Utilizing Firebase to persist chatbot conversations 
-      •	Deploying your AI app securely with hidden API keys 
+      description: `
+      Description
+      •	Students will get the knowledge on advanced topics like Large Language Model, Natural Language Processing and Generative AI
+      •	Students will learn about OpenAI, different APIs of OpenAI.
+      •	Students will develop voicebots, chatbots which work on Artificial Intelligence.
+      Rules
+      •	Every student must have laptop and suggested to bring their phone hotspots internet connection.
+      •	It would be better if students have basic idea of Python Programming. 
+      •	Even though OpenAI API key will be provided, it is advised to create a new OpenAI account with a phone number which is not registered in OpenAI, so that students can access the free trail.
 `,
-      coordinators: " ARUN PRANAV A T - 8838310004",
+      coordinators: ` ARUN PRANAV A T - 8838310004,
+       Adhithya S - +918940944340`,
       timing: "12:30pm -2:00pm",
       buttonText: "View More",
     },
